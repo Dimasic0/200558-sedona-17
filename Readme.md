@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Головин](https://up.htmlacademy.ru/adaptive/17/user/200558).
-* Наставник: `Андрей Островский https://github.com/htmlacademy-adaptive/200558-sedona-17`.
+* Наставник: `Андрей Островский https://htmlacademy.ru/profile/grandmaus`.
 
 ---
 
