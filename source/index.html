@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="ru">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>HTML Academy: Седона</title>
-  </head>
-  <body>
+    <title>html academy: cедона</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
 
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
+<body>
+    <header class="main-menu">
+        <nav class="main-menu__wrapper">
+            <ul class="main-menu__block">
+                <li class="main-menu__menu menu__1"><a href="#" class="main-menu__link link__1">главная</a><button class="main-menu__button--cross button_cross"><img src="img/icon-cross.png" class="main-menu__icon-cross" alt="крестик"></button></li>
+                <li class="main-menu__menu menu__2"><a href="#" class="main-menu__link link__2">фото и видео</a></li>
+                <li class="main-menu__menu menu__3"><img src="img/logo-sedona-tablet.svg" class="main-menu__picture-logo picture__logo" alt="logo"></li>
+                <li class="main-menu__menu menu__4"><a href="#" class="main-menu__link link__3">форма для отзыва</a></li>
+                <li class="main-menu__menu menu__5"><a href="#" class="main-menu__link link__4">html academy</a></li>
+            </ul>
+            <div class="main-menu__row">
+                <img src="img/logo-sedona-tablet.svg" class="main-menu__picture-logo picture__logo" alt="logo">
+                <a class="main-menu__link-button link__button"></a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="greeting">
+            <div class="greeting__wrapper">
+                <h1 class="greeting__text text__1"><img src="img/text.png" class="greeting__picture-text picture__text" alt="Welcome to the Sedona"></h1>
+            </div>
+        </section>
+        <section class="information-city">
+            <div class="information-city__wrapper">
+                <h2 class="information-city__headline headline">седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+                <p class="information-city__text text">рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
+            </div>
+        </section>
+        <section class="city">
+            <div class="city__wrapper">
+                <div class="city__block block__1">
+                    <h2 class="city__headline">настоящий городок</h2>
+                    <p class="city__number">—№1—</p>
+                    <p class="city__text">седона - не аттракцион для туристов, там течет своя жизнь</p>
+                </div>
+                <div class="city__block-picture block_picture">
 
-  </body>
+                </div>
+            </div>
+        </section>
+        <section class="offers">
+            <div class="offers__wrapper">
+                <figure class="offers__block">
+                    <div class="offers__block-icon block-icon">
+                        <img src="img/icon-house_2.png" class="offers__icon  offers__icon--houseicon--house " alt="house">
+                    </div>
+                    <figcaption class="offers__block-text">
+                        <h2 class="offers__headline offers__headline">жилье</h2>
+                        <p class="offers__text">рекоменуем пожить в настоящем мотеле, всё как в кино!</p>
+                    </figcaption>
+                </figure>
+                <figure class="offers__block">
+                    <div class="offers__block-icon">
+                        <img src="img/icon-burger_2.png" class="offers__icon offers__icon--food" alt="burger">
+                    </div>
+                    <figcaption class="offers__block-text">
+                        <h2 class="offers__headline">сувениры</h2>
+                        <p class="offers__text">не только китайского, но и местного производства!</p>
+                    </figcaption>
+                </figure>
+                <figure class="offers__block">
+                    <div class="offers__block-icon">
+                        <img src="img/icon-gift_2.png" class="offers__icon offers__icon--souvenir" alt="gift">
+                    </div>
+                    <figcaption class="offers__block-text">
+                        <h2 class="offers__headline">еда</h2>
+                        <p class="offers__text">всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="features">
+            <div class="features__wrapper">
+                <div class="features__block-photo">
+
+                </div>
+                <div class="features__block-text">
+                    <h2 class="features__headline">там есть мост дьявола</h2>
+                    <p class="features__number">— №2 —</p>
+                    <p class="features__text">да, по нему можно пройти! если вы осмелитесь, конечно</p>
+                </div>
+            </div>
+        </section>
+        <section class="advantage">
+            <div class="advantage__wrapper">
+                <div class="advantage__block">
+                    <h2 class="advantage__headline">небольшая площадь</h2>
+                    <p class="advantage__number">— №3 —</p>
+                    <p class="advantage__text">все достопримечательности находятся очень близко</p>
+                </div>
+                <div class="advantage__block">
+                    <h2 class="advantage__headline">красивая дорога</h2>
+                    <p class="advantage__number">— №4 —</p>
+                    <p class="advantage__text">ехать в седону из лас-вегаса совсем не скучно!</p>
+                </div>
+                <div class="advantage__block">
+                    <h2 class="advantage__headline">мало туристов</h2>
+                    <p class="advantage__number">— №5 —</p>
+                    <p class="advantage__text">большинство едет в гранд каньон и толпится там</p>
+                </div>
+            </div>
+        </section>
+        <section class="modal">
+            <div class="modal__block">
+                <h2 class="modal__headline">заинтересовались</h2>
+                <p class="modal__text">укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
+                <button class="modal__button">найти гостиницу</button>
+            </div>
+        </section>
+        <section class="map">
+            <h2 class="map_none">карта</h2>
+            <div class="map__block">
+                <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8e8df495211fe6f111160f3507d4308a900a9bc7dc583e800dc2788bb140851&amp;width=100%&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__wrapper">
+            <div class="footer__block">
+                <h2 class="footer__text">visitsedona</h2>
+            </div>
+            <div class="footer__block">
+                <a href="#" class="footer__social">
+                    <img src="img/icon-twitter.png" class="footer__icon" alt="Twitter">
+                    <img src="img/twitter_active.png" class="footer__icon-active" alt="clicked twitter">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="img/icon-facebook.png" class="footer__icon" alt="facebook">
+                    <img src="img/facebook_active.png" class="footer__icon-active" alt="Facebook clicked">
+                </a>
+                <a href="#" class="footer__social">
+                    <img src="img/icon-youtube.png" class="footer__icon" alt="YouTube">
+                    <img src="img/YouTube_active.png" class="footer__icon-active" alt="youtube clicked">
+                </a>
+            </div>
+            <div class="footer__block">
+                <p class="footer__copyright">разработано</p>
+                <a href="https://htmlacademy.ru/" class="footer__link">
+                    <img src="img/academy.png" class="footer__icon" alt="black html academy icon">
+                    <img src="img/academy_blue.png" class="footer__icon" alt="blue html academy icon">
+                    <img src="img/academy_gray.png" class="footer__icon" alt="gray html academy icon">
+
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+
 </html>
