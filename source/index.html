@@ -9,7 +9,7 @@
 <body>
   <!-- HEADER -->
   <header class="page-header">
-    <nav class="page-header__wrapper">
+    <nav class="page-header__pagination">
       <ul class="page-header__list">
         <li class="page-header__item">
           <a href="" class="page-header__link">Главная</a>
@@ -24,17 +24,17 @@
           <a href="https://htmlacademy.ru" class="page-header__link">Html academy</a>
         </li>
       </ul>
-      <div class="page-header__block">
-        <img src="http://placehold.it/150x100" class="page-header__picture" alt="City of Sedona">
-        <button>Выключить/включить</button>
-        <button class="page-header__button"></button>
+      <div class="page-header__close">
+        <a href=""><img src="http://placehold.it/150x100" class="page-header__picture" alt="Город Седона"></a>
+        <button class="page-header__none">Закрыть меню</button>
+        <button class="page-header__button--close"></button>
       </div>
     </nav>
   </header>
   <!-- MAIN -->
   <main>
     <section class="greeting">
-      <img src="http://placehold.it/150x100" class="greeting__picture-text" alt="Sedona">
+      <img src="http://placehold.it/150x100" class="greeting__picture-text" alt="Седона">
     </section>
     <section class="information-city">
       <div class="information-city__wrapper">
@@ -42,42 +42,42 @@
         <p class="information-city__text">Рассмотрим 5 причин, по которым седона круче, чем гранд каньон!</p>
       </div>
     </section>
-    <section class="city">
-      <div class="city__wrapper">
-        <div class="city__block">
-          <h2 class="city__headline">Настоящий городок</h2>
-          <p class="city__number">—№1—</p>
-          <p class="city__text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
+    <section class="advantage">
+      <div class="advantage__wrapper">
+        <div class="advantage__reasons">
+          <h2 class="advantage__headline">Настоящий городок</h2>
+          <p class="advantage__number">—№1—</p>
+          <p class="advantage__text">Седона - не аттракцион для туристов, там течет своя жизнь</p>
         </div>
-        <div class="city__block-picture">
+        <div class="advantage__picture">
         </div>
       </div>
     </section>
     <section class="offers">
       <div class="offers__wrapper">
-        <div class="offers__block">
-          <div class="offers__block-icon">
-            <img src="http://placehold.it/150x100" class="offers__icon  offers__icon--house" alt="House">
+        <div class="offers__reasons">
+          <div class="offers__reasons--item">
+            <img src="http://placehold.it/150x100" class="offers__icon  offers__icon--house" alt="Жильё">
           </div>
-          <div class="offers__block-text">
+          <div class="offers__reasons-text">
             <h2 class="offers__headline">Жилье</h2>
             <p class="offers__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
           </div>
         </div>
-        <div class="offers__block">
-          <div class="offers__block-icon">
-            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--souvenir" alt="Gift">
+        <div class="offers__item">
+          <div class="offers__reasons-icon">
+            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--souvenir" alt="Сувениры">
           </div>
-          <div class="offers__block-text">
+          <div class="offers__reasons-text">
             <h2 class="offers__headline">Сувениры</h2>
             <p class="offers__text">Не только китайского, но и местного производства!</p>
           </div>
         </div>
-        <div class="offers__block">
-          <div class="offers__block-icon">
-            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--food" alt="Food">
+        <div class="offers__item">
+          <div class="offers__reasons-icon">
+            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--food" alt="Еда">
           </div>
-          <div class="offers__block-text">
+          <div class="offers__reasons-text">
             <h2 class="offers__headline">Еда</h2>
             <p class="offers__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
           </div>
@@ -86,10 +86,9 @@
     </section>
     <section class="features">
       <div class="features__wrapper">
-        <div class="features__block-photo">
-
+        <div class="features__reasons--picture">
         </div>
-        <div class="features__block-text">
+        <div class="features__reasons--text">
           <h2 class="features__headline">Там есть мост дьявола</h2>
           <p class="features__number">— №2 —</p>
           <p class="features__text">Да, по нему можно пройти! если вы осмелитесь, конечно</p>
@@ -98,17 +97,17 @@
     </section>
     <section class="advantage">
       <div class="advantage__wrapper">
-        <div class="advantage__block">
+        <div class="advantage__reasons">
           <h2 class="advantage__headline">Небольшая площадь</h2>
           <p class="advantage__number">— №3 —</p>
           <p class="advantage__text">Все интересные места находятся очень близко</p>
         </div>
-        <div class="advantage__block">
+        <div class="advantage__reasons">
           <h2 class="advantage__headline">Красивая дорога</h2>
           <p class="advantage__number">— №4 —</p>
           <p class="advantage__text">Ехать в седону из лас-вегаса совсем не скучно!</p>
         </div>
-        <div class="advantage__block">
+        <div class="advantage__reasons">
           <h2 class="advantage__headline">Мало туристов</h2>
           <p class="advantage__number">— №5 —</p>
           <p class="advantage__text">Большинство едет в гранд каньон и толпится там</p>
@@ -116,7 +115,7 @@
       </div>
     </section>
     <section class="modal">
-      <div class="modal__block">
+      <div class="modal__Interested">
         <h2 class="modal__headline">Заинтересовались?</h2>
         <p class="modal__text">Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в седоне</p>
         <button class="modal__button">Найти гостиницу</button>
@@ -124,39 +123,83 @@
     </section>
     <section class="map">
       <h2 class="map_none">карта</h2>
-      <div class="map__block">
         <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8e8df495211fe6f111160f3507d4308a900a9bc7dc583e800dc2788bb140851&amp;width=100%&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
-      </div>
     </section>
   </main>
 
   <!--FOOTER-->
+  <!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="page-header">
+    <nav class="page-header__pagination">
+      <ul class="page-header__list">
+        <li class="page-header__item">
+          <a href="" class="page-header__link">Главная</a>
+        </li>
+        <li class="page-header__item">
+          <a href="photo.html" class="page-header__link">Фото и видео</a>
+        </li>
+        <li class="page-header__item">
+          <a href="form.html" class="page-header__link">Форма отзыва</a>
+        </li>
+        <li class="page-header__item">
+          <a href="https://htmlacademy.ru" class="page-header__link">Html academy</a>
+        </li>
+      </ul>
+      <div class="page-header__close">
+        <a href=""><img src="http://placehold.it/150x100" class="page-header__picture" alt="Город Седона"></a>
+        <button class="page-header__none">Закрыть меню</button>
+        <button class="page-header__button--close"></button>
+      </div>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <section class="main-banner">
+      <div class="main-banner__wrapper">
+        <img src="http://placehold.it/150x100" class="main-banner__picture" alt="Седона">
+      </div>
+    </section>
+  </main>
+  <!--FOOTER-->
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <div class="page-footer__block">
-        <h2 class="page-footer__text">Visitsedona</h2>
+      <div class="page-footer__Visitsedona">
+        <span class="page-footer__text--Visitsedona">#Visitsedona</span>
+        <div class="page-footer__icon"></div>
       </div>
-      <div class="page-footer__block">
-        <a class="page-footer__none">Twitter</a>
-        <a href="http://placehold.it/150x100" class="page-footer__social">
-        </a>
-        <a class="page-footer__none">facebook</a>
-        <a href="http://placehold.it/150x100" class="page-footer__social">
-        </a>
-        <a class="page-footer__none">YouTube</a>
-        <a href="http://placehold.it/150x100" class="page-footer__social">
-        </a>
-      </div>
-      <div class="page-footer__block">
+      <ul class="page-footer__social">
+        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link">
+          </a></li>
+        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link">
+          </a></li>
+        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link">
+          </a></li>
+      </ul>
+      <div class="page-footer__copyright">
         <p class="page-footer__copyright">Разработано</p>
-        <a href="https://htmlacademy.ru/" class="page-footer__none">
-        Htmlacademy
-        </a>
-        <a href="https://htmlacademy.ru/" class="page-footer__link">
+        <a href="https://htmlacademy.ru" class="page-footer__link">
+          <span class="page-footer__text--Htmlacademy">
+            Htmlacademy
+          </span>
+          <div class="page-footer__icon">
+          </div>
         </a>
       </div>
     </div>
   </footer>
+</body>
+
+</html>
+
 </body>
 
 </html>
