@@ -24,10 +24,9 @@
           <a href="https://htmlacademy.ru" class="page-header__link">Html academy</a>
         </li>
       </ul>
-      <div class="page-header__close">
+      <div class="page-header__logo">
         <img src="http://placehold.it/150x100" class="page-header__picture" alt="Город Седона">
-        <button class="page-header__none">Закрыть меню</button>
-        <button class="page-header__button--close"></button>
+        <button class="page-header__button page-header__button--close"></button>
       </div>
     </nav>
   </header>
@@ -56,8 +55,7 @@
     <section class="offers">
       <div class="offers__wrapper">
         <div class="offers__reasons">
-          <div class="offers__reasons-item">
-            <img src="http://placehold.it/150x100" class="offers__icon  offers__icon--house" alt="Жильё">
+          <div class="offers__reasons-icon offers__reasons-icon--housing">
           </div>
           <div class="offers__reasons-text">
             <h2 class="offers__headline">Жилье</h2>
@@ -65,8 +63,7 @@
           </div>
         </div>
         <div class="offers__item">
-          <div class="offers__reasons-icon">
-            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--souvenir" alt="Сувениры">
+          <div class="offers__reasons-icon offers__reasons-icon--souvenirs">
           </div>
           <div class="offers__reasons-text">
             <h2 class="offers__headline">Сувениры</h2>
@@ -74,8 +71,7 @@
           </div>
         </div>
         <div class="offers__item">
-          <div class="offers__reasons-icon">
-            <img src="http://placehold.it/150x100" class="offers__icon offers__icon--food" alt="Еда">
+          <div class="offers__reasons-icon offers__reasons-icon--food">
           </div>
           <div class="offers__reasons-text">
             <h2 class="offers__headline">Еда</h2>
@@ -86,9 +82,9 @@
     </section>
     <section class="features">
       <div class="features__wrapper">
-        <div class="features__reasons--picture">
+        <div class="features__reasons features__reasons--picture">
         </div>
-        <div class="features__reasons--text">
+        <div class="features__reasons-text">
           <h2 class="features__headline">Там есть мост дьявола</h2>
           <p class="features__number">— №2 —</p>
           <p class="features__text">Да, по нему можно пройти! если вы осмелитесь, конечно</p>
@@ -122,26 +118,31 @@
       </div>
     </section>
     <section class="map">
-      <h2 class="map_none">карта</h2>
       <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ae8e8df495211fe6f111160f3507d4308a900a9bc7dc583e800dc2788bb140851&amp;width=100%&amp;height=350&amp;lang=ru_RU&amp;scroll=true"></script>
     </section>
-    <footer class="page-footer">
+    <!--FOOTER-->
+  <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <div class="page-footer__Visitsedona">
-        <p class="page-footer__text--Visitsedona">#Visitsedona</p>
+      <div class="page-footer__info">
+        <p class="page-footer__text">#Visitsedona</p>
       </div>
       <ul class="page-footer__social">
-        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link"></a></li>
-        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link"></a></li>
-        <li class="page-footer__item"><a href="http://placehold.it/150x100" class="page-footer__link"></a></li>
+        <li class="page-footer__item">
+        <a href="https://twitter.com/" class="page-footer__link"></a>
+        </li>
+        <li class="page-footer__item">
+        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=298364580528938&extra_1=yandex_12337837700%7Cdesktop%7C1903759857%7C%7Cfacebook%7Cnone%7C8095dy448850&placement=none&creative=1903759857&keyword=facebook&partner_id=yandexsem&extra_2=search&adposition=premium_1" class="page-footer__link">
+        </a>
+        </li>
+        <li class="page-footer__item">
+        <a href="https://www.youtube.com/" class="page-footer__link"></a>
+        </li>
       </ul>
       <div class="page-footer__copyright">
         <p class="page-footer__copyright">Разработано</p>
-        <a href="https://htmlacademy.ru" class="page-footer__link">
-          <span class="page-footer__text--Htmlacademy">
+        <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link">
             Htmlacademy
-          </span>
-          <div class="page-footer__icon">
+          <div class="page-footer__item">
           </div>
         </a>
       </div>
