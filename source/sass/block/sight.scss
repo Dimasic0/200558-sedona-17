@@ -1,0 +1,79 @@
+.sight__headline
+{
+  @extend .impression__headline;
+  margin-bottom:19px;
+}
+.sight__switch-type
+{
+  display: inline-block;
+  @include block_color(56px,56px,#f2f2f2);
+  margin-top:19px;
+  margin-left:20px;
+  margin-right:auto;
+}
+.sight__switch-type:hover
+{
+  background-color:#e5e5e5;
+  .sight__check
+  {
+    display: block;
+    margin-top:19px;
+    margin-left:auto;
+    margin-right:auto;
+    width:25px;
+    height:19px;
+  }
+}
+.sight__switch
+{
+  display: none;
+}
+.sight__tick
+{
+  margin-top:20px;
+  margin-left:17px;
+  display: none;
+  width:25px;
+  height:19px;
+}
+.sight__check
+{
+  display: none;
+}
+.sight__text
+{
+  @extend .Contact-Information__headline;
+  position:relative;
+  top:-21px;
+  left:19px;
+  text-transform:capitalize;
+}
+.sight__wrapper
+{
+  border-top:1px solid #e5e5e5;
+  min-width:$Screen-size*1px;
+  width:100%;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+  border-bottom:1px solid #e5e5e5;
+}
+.sight__switch:checked + .sight__switch-type .sight__tick
+{
+  display: inline-block;
+}
+.sight__switch:checked + .sight__switch-type .sight__check
+{
+  display: none;
+}
+.sight__item
+{
+  margin-bottom:20px;
+}
+.sight__block-minor
+{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,107 @@
+.presentation,
+.presentation__wrapper {
+  overflow: hidden;
+}
+
+.presentation__headline {
+  @extend .advantage__headline;
+}
+
+.presentation__wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 320px;
+  max-width: 1200px;
+}
+
+.presentation__text {
+  @extend .modal__text;
+}
+
+.presentation__photo {
+  display:block;
+  width: 321px;
+  height: 201px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.presentation__wrapper {
+  background-color: white;
+}
+.presentation__item
+{
+  display:block;
+  width:280px;
+  height:45px;
+  background-color:rgba(0,0,0,0.6);
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:-45px;
+  z-index:3;
+}
+.presentation__band
+{
+  @include block_color(389*100%/648,3px,rgba(255,255,255,0.2));
+  display:inline-block;
+  margin-top:45px;
+  margin-left:42*100%/648;
+}
+.presentation__circle
+{
+  width:9px;
+  height:9px;
+  @include block-color(9px,9px,white);
+  border-radius:50%;
+  margin-left:113*100%/648;
+}
+.presentation__unit
+{
+   width:280px;
+   height:66px;
+   background-color:#f2f2f2;
+   margin-left:auto;
+   margin-right:auto;
+}
+.presentation__block--turntable
+{
+  display:inline-block;
+  @include block_background(16px,20px,"../../img/scroll button.png");
+  margin-top:22px;
+  margin-left:24*100%/280;
+}
+.presentation__block--cc
+{
+  display: inline-block;
+  @include block_background(32px,20px,"../../img/кнопка сс.png");
+  margin-top:23px;
+  margin-left:133*100%/280;
+}
+.presentation__block--expand
+{
+  display:inline-block;
+  @include block_background(20px,20px,"../../img/scroll button.png");
+  margin-top:23px;
+  margin-left:31*100%/280;
+}
+.presentation__button--turntable
+{
+   display: inline-block;
+   @include block_background(16px,20px,"../../img/scroll button.png");
+   margin-top:35px;
+   margin-left:35*100%/648;
+}
+.presentation__block--cc
+{
+  display:inline-block;
+  @include block_background(32px,20px,"../../img/button_сс.png");
+  margin-top:36px;
+  margin-left:42*100%/648;
+}
+.presentation__button--expand
+{
+  display:inline-block;
+  @include block_background(20px,20px,"../../img/fullscreen.png");
+  margin-top:36px;
+  margin-left:31*100%/648;
+}

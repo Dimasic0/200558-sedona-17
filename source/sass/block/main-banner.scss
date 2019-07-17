@@ -1,0 +1,16 @@
+.main-banner__wrapper
+{
+  @include block-background(320px,158px,"../img/mount_1x.png");
+  margin-left:auto;
+  margin-right:auto;
+  min-width:320px;
+  max-width:1200px;
+}
+.main-banner__text
+{
+  display: block;
+  margin-top:52px;
+  text-align: center;
+}
+
+

@@ -1,0 +1,60 @@
+.impression__wrapper
+{
+  min-width:$Screen-size*1px;
+  width:100%;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color:white;
+}
+
+.impression__headline
+{
+  @extend .Contact-Information__headline;
+  margin-bottom:26px;
+}
+.impression__switch-type
+{
+  display: inline-block;
+  width:22px;
+  height:22px;
+  padding: 17px;
+  background-color:#f2f2f2;
+  border-radius:50px;
+  border:0;
+  margin-left:20px;
+}
+.impression__switch-type:hover
+{
+  background-color:#e5e5e5;
+}
+.impression__switch-type:hover .impression__circle
+{
+  display: block;
+}
+.impression__circle
+{
+  display: block;
+  display:none;
+  width:22px;
+  height:22px;
+  border-radius:50%;
+  background-color:#333333;
+}
+.impression__switch
+{
+  display:none;
+}
+.impression__text
+{
+  @extend .Contact-Information__headline;
+  display: inline-block;
+  position: relative;
+  top:-22px;
+  left:17px;
+}
+.impression__switch:checked+.impression__switch-type .impression__circle
+{
+  display: block;
+   background-color:#a4a4a4;
+}

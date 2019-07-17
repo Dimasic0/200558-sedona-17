@@ -1,0 +1,46 @@
+.modal {
+  overflow: hidden;
+}
+
+.modal__headline {
+  @extend .advantage__headline;
+  font-size: 21px;
+  margin-top: 28px;
+  text-align: center;
+}
+
+.modal__text {
+  width: 296px;
+  text-align: center;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  @extend .advantage__text;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.modal__button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:35px;
+  margin-bottom:49px;
+  border:0;
+  @include button_color(17px, 47px, 19px, 47px,#81b3d2, 21px, 700, white);
+}
+.modal__button:hover
+{
+  background-color:#669ec0;
+}
+.modal__button:active
+{
+  background-color:#5496bd;
+}
+.modal__block
+{
+  width:$Screen-size*1px;
+  margin-left:auto;
+  margin-right:auto;
+}
