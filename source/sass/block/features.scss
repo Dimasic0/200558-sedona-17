@@ -1,0 +1,48 @@
+.features {
+    overflow: hidden;
+}
+
+.features__headline {
+    margin-left: auto;
+    margin-right: auto;
+    width: 214px;
+    @extend.advantage__headline;
+    margin-top:39px;
+}
+
+
+.features__number,
+.features__text {
+    @extend .advantage__text;
+}
+
+.features__number {
+    width: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:14px;
+}
+
+.features__text {
+    width: 281px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:16px;
+}
+
+.features__reasons-text {
+    @include block-color(320px, 191px, #81b3d2);
+}
+
+.features__wrapper {
+    display: flex;
+    flex-direction: column;
+    width:320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features__reasons
+{
+    @include block_background(320px,260px,"../img/hill_1x.png");
+}

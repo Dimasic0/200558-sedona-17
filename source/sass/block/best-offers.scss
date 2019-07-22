@@ -1,0 +1,37 @@
+.best-offers__headline
+{
+  @include font(PTSans,18px,700,black,center);
+  margin-top:44px;
+  text-transform: uppercase;
+  line-height: 12px;
+  height:14px;
+
+}
+.best-offers__text
+{
+  font-size:14px;
+  line-height:24px;
+  @extend .information-city__text;
+  margin-top:19px;
+  margin-bottom:33px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  width:459px;
+  height:40px;
+  margin-bottom:33px;
+}
+.best-offers__wrapper
+{
+  min-width:320px;
+  width:100%;
+  max-width:1200px;
+  margin-left:auto;
+  margin-right:auto;
+  overflow: hidden;
+}
+.best-offers,
+.best-offers__wrapper
+{
+  overflow: hidden;
+}

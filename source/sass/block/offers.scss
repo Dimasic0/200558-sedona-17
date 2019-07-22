@@ -1,0 +1,137 @@
+.offers__headline {
+  @include font(PTSans, 18px, 700, black, left);
+  text-transform: uppercase;
+  margin-bottom: 0px;
+
+  &--housing {
+    margin-top: 15px;
+    height: 12px;
+    line-height: 12px;
+  }
+
+  &--souvenirs {
+    margin-top: 17px;
+    height: 12px;
+    line-height: 12px;
+  }
+
+  &--food {
+    margin-top: 11px;
+    height: 14px;
+    line-height: 12px;
+  }
+}
+
+.offers__text {
+  @include font(PTsans, 14px, 400, #333333, left);
+  line-height: 21px;
+  text-transform: uppercase;
+  height: 38px;
+  margin-bottom: 0px;
+
+  &--housing {
+    margin-top: 20px;
+  }
+
+  &--souvenirs {
+    margin-top: 19px;
+  }
+
+  &--food {
+    margin-top: 17px;
+  }
+}
+
+
+
+
+.offers__reasons {
+  display: flex;
+  margin: 0;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  &--housing
+  {
+    margin-top:26px;
+  }
+  &--souvenirs
+  {
+    margin-top: 22px;
+  }
+  &--food
+  {
+    margin-top:28px;
+    margin-bottom:42px;
+  }
+}
+
+
+.offers__reasons-icon {
+  width: 39px;
+  background-size: 39px 37px;
+}
+
+.offers__icon {
+  &--housing {
+    width: 39px;
+    height: 37px;
+  }
+}
+
+.offers__icon {
+  &--house {
+    width: 39px;
+    height: 37px;
+  }
+
+  &--food {
+    width: 32px;
+    height: 38px;
+  }
+
+  &--souvenirs {
+    width: 32px;
+    height: 38px;
+  }
+
+  &--food {
+    width: 40px;
+    height: 35px;
+  }
+}
+
+.offers__wrapper {
+  display: flex;
+  flex-direction: column;
+  min-width: 320px;
+  width: 100%;
+  max-width: 1012px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+}
+
+.offers__reasons-icon {
+  &--housing {
+    margin-right: 9px;
+  }
+
+  &--souvenirs {
+    margin-right: 13px;
+  }
+
+  &--food {
+    margin-right: 12px;
+  }
+}
+
+.offers__wrapper {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0px;
+  background-color: white;
+}

@@ -1,0 +1,71 @@
+.advantage__headline {
+  margin-top:27px;
+  @include font(PTSans,18px,700,black,center);
+  text-transform: uppercase;
+  margin-bottom:0px;
+  line-height:12px;
+  height:14px;
+}
+.advantage__number {
+  margin-top:18px;
+  @include font(PTSans,14px,400,#333333,center);
+  margin-bottom:0px;
+  line-height: 10px;
+}
+
+.advantage__text {
+  margin-top:21px;
+  @include font(Myriad Pro,14px,400,#333333,center);
+  line-height:21px;
+  text-transform: uppercase;
+  margin-bottom:26px;
+}
+
+.advantage__wrapper {
+  width:100%;
+
+  margin-left:auto;
+  margin-right:auto;
+  width:320px;
+  display:flex;
+  flex-direction: column;
+}
+.advantage__reasons
+{
+  width:320px;
+  background: url("../img/blue.png");
+}
+.advantage__picture
+{
+  @include block-background(320px,260px,"../img/city_1x.jpg");
+}
+
+.advantage__reasons--details
+{
+  background:#eeeeee;
+  width:280px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.advantage__wrapper--details
+{
+  max-width:320px;
+  flex-direction:column;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.advantage__reasons--line
+{
+  border-top:1px solid #d6d6d6;
+  border-bottom:1px solid #d6d6d6;
+}
+.advantage__headline--details
+{
+  margin-top:33px;
+}
+.advantage__wrapper--details
+{
+  width:320px;
+  background-color: #eeeeee;
+}
