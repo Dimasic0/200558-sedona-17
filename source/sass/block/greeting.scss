@@ -1,25 +1,24 @@
-.greeting__picture-text
-{
+.greeting__picture-text {
   display: block;
-  width:282px;
-  height:214px;
-  margin-left:auto;
-  margin-right:auto;
+  width: 282px;
+  height: 214px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.greeting__wrapper
-{
+
+.greeting__wrapper {
   display: block;
-  width:320px;
-  height:389px;
-  margin-left:auto;
-  margin-right:auto;
-  background:url("../../img/mountains-index.png");
-  background-color:blue;
-  background-size:100% 100%;
+  width: 320px;
+  height: 389px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../../img/mountains-index.png");
+  background-color: blue;
+  background-size: 100% 100%;
   overflow: hidden;
 
 }
-.greeting__picture-text
-{
-  margin-top:90px;
+
+.greeting__picture-text {
+  margin-top: 90px;
 }

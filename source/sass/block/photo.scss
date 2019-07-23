@@ -1,22 +1,22 @@
-.photo__wrapper
-{
-  width:320px;
-  margin-left:auto;
-  margin-right:auto;
-  background-color:white;
+.photo__wrapper {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
   overflow: hidden;
 }
+
 .photo__benefits {
-  width:320*1px;
-  max-width:1200px;
+  width: 320*1px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding: 0;
   overflow: hidden;
-  border-top:1px solid #e5e5e5;
-  &--last
-  {
-    border-bottom:1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+
+  &--last {
+    border-bottom: 1px solid #e5e5e5;
   }
 }
 
@@ -24,7 +24,7 @@
   display: block;
   width: 280px;
   height: 280px;
-  margin:0px;
+  margin: 0;
 }
 
 .photo__headline {
@@ -42,7 +42,7 @@
   margin-top: 11px;
   line-height: 10px;
   color: #333333;
-  height:13px;
+  height: 13px;
   text-transform: capitalize;
 }
 
@@ -51,13 +51,13 @@
   width: 23px;
   height: 21px;
   padding: 0;
-  background-color: rgb(0,0,0);
-  background-image:url("img/like-icon.svg");
-  background-size:100% 100%;
+  background-color: rgb(0, 0, 0);
+  background-image: url("img/like-icon.svg");
+  background-size: 100% 100%;
   border: 0;
-  margin-top:7px;
-  margin-left:19px;
-  margin-bottom:21px;
+  margin-top: 7px;
+  margin-left: 19px;
+  margin-bottom: 21px;
   position: relative;
 }
 
@@ -69,17 +69,17 @@
 .photo__likes {
   display: inline-block;
   position: relative;
-  margin-top:2px;
+  margin-top: 2px;
   margin-left: 10px;
   @include font(14px, 700, black, left);
   line-height: 12px;
-  height:11px;
+  height: 11px;
 }
-.photo__link
-{
+
+.photo__link {
   display: block;
-  width:280px;
-  margin-top:22px;
-  margin-left:auto;
-  margin-right:auto;
+  width: 280px;
+  margin-top: 22px;
+  margin-left: auto;
+  margin-right: auto;
 }

@@ -27,7 +27,7 @@
   line-height: 21px;
   text-transform: uppercase;
   height: 38px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   &--housing {
     margin-top: 20px;
@@ -53,18 +53,18 @@
   margin-right: auto;
   display: flex;
   flex-direction: row;
-  &--housing
-  {
-    margin-top:26px;
+
+  &--housing {
+    margin-top: 26px;
   }
-  &--souvenirs
-  {
+
+  &--souvenirs {
     margin-top: 22px;
   }
-  &--food
-  {
-    margin-top:28px;
-    margin-bottom:42px;
+
+  &--food {
+    margin-top: 28px;
+    margin-bottom: 42px;
   }
 }
 
@@ -132,6 +132,12 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding: 0px;
+  padding: 0;
   background-color: white;
+}
+
+.offers__reasons-icon--specialty-housing,
+.offers__reasons-icon--specialty-souvenirs,
+.offers__reasons-icon--specialty-food {
+  margin-right: 30px;
 }

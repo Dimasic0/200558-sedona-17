@@ -3,12 +3,11 @@
 }
 
 .modal__headline {
-  @extend .advantage__headline;
   font-size: 21px;
   text-align: center;
   line-height: 15px;
   height: 15px;
-  margin-top:0px;
+  margin-top: 0;
 }
 
 .modal__text {
@@ -21,8 +20,8 @@
   @extend .advantage__text;
   line-height: 24px;
   text-transform: uppercase;
-  margin-bottom:0px;
-  height:67px;
+  margin-bottom: 0;
+  height: 67px;
 }
 
 .modal__button {
@@ -31,7 +30,7 @@
   margin-right: auto;
   margin-top: 40px;
   border: 0;
-  @include button_color(17px, 47px, 19px, 47px, #81b3d2);
+  @include button_button_details(17px, 47px, 19px, 47px, #81b3d2);
 }
 
 .modal__button:hover {
