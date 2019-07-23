@@ -1,5 +1,5 @@
 .offers__headline {
-  @include font(PTSans, 18px, 700, black, left);
+  @include font(18px, 700, black, left);
   text-transform: uppercase;
   margin-bottom: 0px;
 
@@ -23,7 +23,7 @@
 }
 
 .offers__text {
-  @include font(PTsans, 14px, 400, #333333, left);
+  @include font(14px, 400, #333333, left);
   line-height: 21px;
   text-transform: uppercase;
   height: 38px;

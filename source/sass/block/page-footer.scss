@@ -47,7 +47,6 @@
 }
 
 .page-footer__text {
-  font-family:PTSans;
   font-size:21px;
   font-weight:700;
   line-height: 16px;
@@ -68,11 +67,6 @@
   margin-left: 6px;
   margin-right: 6px;
 }
-
-.page-footer__item:active .footer__icon:nth-of-type(1) {
-  background: url("../../img") 0 0;
-  background-size: 100% 100%;
-}
 .footer__text {
   margin-bottom: 42px;
   line-height: 17px;
@@ -88,7 +82,7 @@
 }
 
 .page-footer__copyright {
-  @include font(PTSans, 14px, 400, black, left);
+  @include font(14px, 400, black, left);
 }
 
 .page-footer__link:hover {

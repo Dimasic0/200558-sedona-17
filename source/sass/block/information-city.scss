@@ -1,16 +1,12 @@
-.information-city {
-  height: 223px;
-}
-
 .information-city__headline {
   margin-top: 43px;
   line-height: 26px;
-  @include font(Myriad Pro, 18px, 700, black, center);
+  @include font(18px, 700, black, center);
   text-transform: uppercase;
 }
 
 .information-city__text {
-  @include font(Myriad Pro, 14px, 400, #333333, center);
+  @include font(14px, 400, #333333, center);
   line-height: 26px;
   text-transform: uppercase;
 }

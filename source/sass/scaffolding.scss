@@ -13,29 +13,22 @@
   background:url($background_1)0px 0px;
   background-size:100% 100%;
 }
-@mixin font($font,$size,$richness,$color,$align)
+@mixin font($size,$richness,$color,$align)
 {
-  font-family:$font;
   font-size:$size;
   font-weight:$richness;
   color:$color;
   text-align:$align;
 }
 
-@mixin button_color($padding-top,$padding-right,$padding-bottom,$padding-left,$bakground-color,$font,$richness,$color)
+@mixin button_color($padding-top,$padding-right,$padding-bottom,$padding-left,$bakground-color)
 {
-  font-family:$font;
-  font-weight:$richness;
-  color:$color;
   padding:$padding-top $padding-right $padding-bottom $padding-left;
   background-color:$bakground-color;
 }
-@mixin button_background($padding-top_2,$padding-right_2,$padding-bottom_2,$padding-left_2,$bakground-image_2,$font_2,$richness_2,$color_2)
+@mixin button_background($padding-top_2,$padding-right_2,$padding-bottom_2,$padding-left_2,$bakground-image_2)
 {
   padding: $padding-top_2 $padding-right_2 $padding-bottom_2 $padding-left_2;
   background:url($bakground-image_2);
-  font-family:$font_2;
-  font-weight:$richness_2;
-  color:$color_2;
 }
 

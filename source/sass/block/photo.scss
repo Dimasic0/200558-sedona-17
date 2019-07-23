@@ -33,7 +33,7 @@
   font-size: 14px;
   margin-top: 22px;
   line-height: 13px;
-  margin-left: 61px*100/320;
+  margin-left: 19px;
 }
 
 .photo__info {
@@ -56,7 +56,7 @@
   background-size:100% 100%;
   border: 0;
   margin-top:7px;
-  margin-left: 61px*100/320;
+  margin-left:19px;
   margin-bottom:21px;
   position: relative;
 }
@@ -71,7 +71,7 @@
   position: relative;
   margin-top:2px;
   margin-left: 10px;
-  @include font(PTSans, 14px, 700, black, left);
+  @include font(14px, 700, black, left);
   line-height: 12px;
   height:11px;
 }

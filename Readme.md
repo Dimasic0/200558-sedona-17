@@ -1,7 +1,7 @@
 ﻿# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Дмитрий Головин](https://up.htmlacademy.ru/adaptive/16/user/200558).
-* Наставник: `Артем Альтигин   `.
+* Наставник: `Андрей Островский`.
 
 ---
 
