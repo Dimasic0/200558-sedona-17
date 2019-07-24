@@ -22,16 +22,11 @@
   margin-left: 0;
 }
 
-.page-header__link--position {
-  margin-left: 34%;
-}
-
 .main-nav__item {
   display: block;
   padding: 20px 0 18px 0;
   list-style-type: none;
   background-color: #81b3d2;
-  text-align: center;
   width: 100%;
   height: 20px;
   text-transform: uppercase;
@@ -43,10 +38,6 @@
   &--details {
     border-top: 0;
   }
-}
-
-.main-nav__item:nth-child(3) {
-  display: none;
 }
 
 .main-nav__item:hover {
@@ -77,24 +68,25 @@
 .page-header__button {
   display: inline-block;
   margin-top: 17px;
-  margin-left: 65*100%/320;
+  margin-left: 20%;
   @include block_background(23px, 21px, "../img/icon-menu.png");
   padding: 0;
   border: 0;
 }
 
 .main-nav__link--details {
-  font-family: PTSans;
   font-size: 18px;
   font-weight: 700;
+  line-height: 11px;
+  height: 12px;
   color: white;
   text-decoration: none;
   position: relative;
-  top: -9px;
+  top: 0;
   margin-left: 38%;
 }
 
-.main-nav__button--shut {
+.main-nav__button--details {
   border: 0;
   width: 23px;
   height: 22px;
@@ -110,6 +102,21 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.main-nav__item--htmlacademy {
+.main-nav__item--trivia {
   border-bottom: 0;
+}
+
+.main-nav__link--trivia {
+  margin-left: 30%;
+}
+
+.main-nav__link--position {
+  margin-left: 29%;
+}
+.main-nav__link--disposition
+{
+  margin-left: 30%;
+}
+.page-header__link {
+  margin-left: 34%;
 }

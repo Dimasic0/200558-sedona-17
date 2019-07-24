@@ -17,7 +17,6 @@
   margin-left: auto;
   margin-right: auto;
   color: black;
-  @extend .advantage__text;
   line-height: 24px;
   text-transform: uppercase;
   margin-bottom: 0;
@@ -25,12 +24,18 @@
 }
 
 .modal__button {
+  font-family: PTSans, "Arial", sans-serif;
+  font-size: 21px;
+  heigth: 58px;
+  line-height: 23px;
+  color: white;
+  text-transform: uppercase;
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
   border: 0;
-  @include button_button_details(17px, 47px, 19px, 47px, #81b3d2);
+  @include button_details(17px, 47px, 19px, 47px, #81b3d2);
 }
 
 .modal__button:hover {
@@ -45,7 +50,7 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  background-color: white;
+  padding-top: 33px;
   padding-bottom: 49px;
+  background-color: white;
 }

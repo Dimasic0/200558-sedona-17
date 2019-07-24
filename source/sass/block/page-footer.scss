@@ -88,13 +88,6 @@
   @include font(14px, 400, black, left);
 }
 
-.page-footer__link:hover {
-  .footer__icon:nth-of-type(4) {
-    display: none;
-  }
-
-}
-
 .page-footer__social {
   display: flex;
   flex-direction: row;
