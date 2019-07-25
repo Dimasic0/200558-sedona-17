@@ -1,9 +1,8 @@
-*.txt text=auto * text eol=LF
-
- *.png binary
+* text eol=lf
+*.txt crlf
+*.png binary
 *.jpg binary
 *.jpeg binary
 *.webp binary
 *.woff binary
 *.woff2 binary
- 
