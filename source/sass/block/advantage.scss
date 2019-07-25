@@ -7,9 +7,11 @@
   line-height: 12px;
   height: 14px;
 }
+
 .advantage__headline {
-  margin-top:59px;
+  margin-top: 59px;
 }
+
 .advantage__number {
   margin-top: 18px;
   @include font(14px, 400, #333333, center);
@@ -25,9 +27,11 @@
   text-transform: uppercase;
   margin-bottom: 26px;
 }
+
 .advantage__text {
-  color:white;
+  color: white;
 }
+
 .advantage__wrapper {
   width: 100%;
   margin-left: auto;
