@@ -13,26 +13,26 @@
   <header class="page-header">
     <nav class="main-nav">
       <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--main">
-          <a class="main-nav__link--main">Главная</a>
-          <button class="main-nav__button--shut">
+        <li class="main-nav__item main-nav__item--details">
+          <a class="main-nav__link main-nav__link--details">Главная</a>
+          <!--<button class="main-nav__button--details">
             <img src="img/icon-cross.svg" alt="" class="page-header__painting">
-          </button>
+          </button>-->
         </li>
         <li class="main-nav__item">
-          <a href="photo.html" class="main-nav__link">Фото и видео</a>
+          <a href="photo.html" class="main-nav__link main-nav__link--trivia">Фото и видео</a>
         </li>
         <li class="main-nav__item">
-          <a href="form.html" class="main-nav__link">Форма отзыва</a>
+          <a href="form.html" class="main-nav__link main-nav__link--position">Форма отзыва</a>
         </li>
-        <li class="main-nav__item">
-          <a href="https://htmlacademy.ru" class="main-nav__link">Html academy</a>
+        <li class="main-nav__item main-nav__item--trivia">
+          <a href="https://htmlacademy.ru" class="main-nav__link main-nav__link--disposition">Html academy</a>
         </li>
       </ul>
     </nav>
     <div class="page-header__logo">
       <img src="img/logo-sedona-mobile.svg" class="page-header__picture" alt="Город Седона">
-      <button class="page-header__button page-header__button--close"></button>
+      <button class="page-header__button"></button>
     </div>
   </header>
   <!-- MAIN -->
@@ -62,31 +62,31 @@
       </li>
       <li class="offers">
         <ul class="offers__wrapper">
-          <li class="offers__reasons offers__reasons--housing">
-            <div class="offers__reasons-icon offers__reasons-icon--housing">
-              <img src="img/icon-house.png" class="offers__icon--housing">
+          <li class="offers__reasons offers__reasons--position">
+            <div class="offers__reasons-icon offers__reasons-icon--specialty-housing">
+              <img src="img/icon-house.png" class="offers__icon offers__icon--proptions-housing">
             </div>
             <div class="offers__reasons-text">
-              <h2 class="offers__headline offers__headline--housing">Жилье</h2>
-              <p class="offers__text offers__text--housing">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
+              <h2 class="offers__headline">Жилье</h2>
+              <p class="offers__text">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
             </div>
           </li>
-          <li class="offers__reasons offers__reasons--souvenirs">
-            <div class="offers__reasons-icon offers__reasons-icon--souvenirs">
-              <img src="img/icon-gift.png" class="offers__icon--souvenirs">
+          <li class="offers__reasons offers__reasons--position">
+            <div class="offers__reasons-icon offers__reasons-icon--specialty-souvenirs">
+              <img src="img/icon-gift.png" class="offers__icon offers__icon--proptions">
             </div>
             <div class="offers__reasons-text">
-              <h2 class="offers__headline offers__headline--souvenirs">Сувениры</h2>
-              <p class="offers__text offers__text--souvenirs">Не только китайского, но и местного производства!</p>
+              <h2 class="offers__headline">Сувениры</h2>
+              <p class="offers__text">Не только китайского, но и местного производства!</p>
             </div>
           </li>
-          <li class="offers__reasons offers__reasons--food">
-            <div class="offers__reasons-icon offers__reasons-icon--food">
-              <img src="img/icon-burger_2.png" class="offers__icon--food">
+          <li class="offers__reasons offers__reasons--position">
+            <div class="offers__reasons-icon offers__reasons-icon--specialty-food">
+              <img src="img/icon-burger_2.png" class="offers__icon offers__icon--proptions">
             </div>
             <div class="offers__reasons-text">
-              <h2 class="offers__headline offers__headline--food">Еда</h2>
-              <p class="offers__text offers__text--food">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+              <h2 class="offers__headline">Еда</h2>
+              <p class="offers__text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
             </div>
           </li>
         </ul>
@@ -139,52 +139,23 @@
           <p class="page-footer__text">#Visitsedona</p>
         </div>
         <ul class="page-footer__social">
-          <li class="page-footer__item page-footer__item--">
+          <li class="page-footer__item">
             <a href="https://twitter.com/" class="page-footer__link page-footer__link--twitter">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="15px">
-                <defs>
-                  <filter id="Filter_0">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
-                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                  </filter>
-
-                </defs>
-                <g filter="url(#Filter_0)">
-                  <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M18.353,2.482 C17.698,2.768 16.994,2.961 16.255,3.047 C17.009,2.604 17.588,1.902 17.861,1.064 C17.155,1.475 16.373,1.773 15.541,1.934 C14.875,1.237 13.925,0.802 12.874,0.802 C10.857,0.802 9.220,2.407 9.220,4.387 C9.220,4.667 9.253,4.941 9.315,5.203 C6.279,5.054 3.587,3.627 1.784,1.459 C1.470,1.988 1.290,2.603 1.290,3.260 C1.290,4.504 1.935,5.602 2.915,6.244 C2.316,6.225 1.753,6.065 1.260,5.796 C1.260,5.811 1.260,5.825 1.260,5.840 C1.260,7.577 2.519,9.026 4.191,9.355 C3.884,9.437 3.561,9.481 3.228,9.481 C2.993,9.481 2.764,9.459 2.541,9.417 C3.006,10.841 4.355,11.878 5.954,11.907 C4.703,12.867 3.128,13.441 1.416,13.441 C1.121,13.441 0.830,13.424 0.545,13.391 C2.161,14.408 4.082,15.002 6.145,15.002 C12.866,15.002 16.541,9.540 16.541,4.802 C16.541,4.647 16.537,4.492 16.530,4.338 C17.244,3.833 17.863,3.201 18.353,2.482 Z" />
-                </g>
-              </svg>
             </a>
           </li>
           <li class="page-footer__item">
             <a href="https://www.facebook.com/campaign/landing.php?campaign_id=298364580528938&extra_1=yandex_12337837700%7Cdesktop%7C1903759857%7C%7Cfacebook%7Cnone%7C8095dy448850&placement=none&creative=1903759857&keyword=facebook&partner_id=yandexsem&extra_2=search&adposition=premium_1" class="page-footer__link page-footer__link--Facebook">
 
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="19px">
-                <defs>
-                  <filter id="Filter_0">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
-                    <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
-                    <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
-                  </filter>
-
-                </defs>
-                <g filter="url(#Filter_0)">
-                  <path fill-rule="evenodd" fill="rgb(184, 184, 184)" d="M5.544,18.518 L1.859,18.518 L1.859,9.610 L0.017,9.610 L0.017,6.538 L1.859,6.538 L1.859,4.696 C1.859,2.191 2.899,0.702 5.852,0.702 L8.312,0.702 L8.312,3.772 L6.775,3.772 C5.625,3.772 5.549,4.201 5.549,5.002 L5.544,6.538 L8.330,6.538 L8.004,9.610 L5.544,9.610 L5.544,18.518 Z" />
-                </g>
-              </svg>
             </a>
           </li>
           <li class="page-footer__item">
             <a href="https://www.youtube.com/" class="page-footer__link page-footer__link--YouTube">
-              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
-                <image width="20" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAA/ElEQVQ4ja3UsS5EQRSH8d+9dgmNRIhnoFCJSkEpWgWNeABewBPoKWkUOoVEIVqlTqvRb6IQscHaKydmFTe5d++GL5lqznyZmfOfyYqigG3sYR6TmMA4WhhD5oco7qOHT7yji2dc4TgW7ODC31nDbOzwDqv/IAw6OeZqCh7wNIKwHcKpmoJbrOAEHw2E/Tw1oIpoUAcH6Vpuhhnz1MUm3GMDW3isE2YNhQNeU2wqhZWTJZZwmY69UFXUSuGs4g3TOMT+kAb+Crs18+vYxGLDU+QhjGdTxXJD0YBe3OHZiIvqOI8dnqbm7GIm5bKdRkSqnIT4HL5KH8QLrnH0DUDfMTTSq6l/AAAAAElFTkSuQmCC" />
-              </svg>
             </a>
           </li>
         </ul>
         <div class="page-footer__copyright">
           <p class="page-footer__copyright">Разработано</p>
-          <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link--htmlacademy">
+          <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link">
           </a>
         </div>
       </div>
