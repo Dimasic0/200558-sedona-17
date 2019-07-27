@@ -1,0 +1,31 @@
+@mixin block_color($width, $heigth, $color) {
+  width: $width;
+  height: $heigth;
+  background-color: $color;
+  overflow: hidden;
+}
+
+@mixin block_background($width_1, $heigth_1, $background_1) {
+  width: $width_1;
+  height: $heigth_1;
+  overflow: hidden;
+  background: url($background_1)0 0;
+  background-size: 100% 100%;
+}
+
+@mixin font($size, $richness, $color, $align) {
+  font-size: $size;
+  font-weight: $richness;
+  color: $color;
+  text-align: $align;
+}
+
+@mixin button_details($padding-top, $padding-right, $padding-bottom, $padding-left, $bakground-color) {
+  padding: $padding-top $padding-right $padding-bottom $padding-left;
+  background-color: $bakground-color;
+}
+
+@mixin button_background($padding-top_2, $padding-right_2, $padding-bottom_2, $padding-left_2, $bakground-image_2) {
+  padding: $padding-top_2 $padding-right_2 $padding-bottom_2 $padding-left_2;
+  background: url($bakground-image_2);
+}
