@@ -102,11 +102,11 @@
   background-color: rgba(255, 255, 255, 0);
 }
 
-.main-nav__item--trivia {
+.main-nav__item:last-child {
   border-bottom: 0;
 }
 
-.main-nav__link--trivia {
+.main-nav__link--location {
   margin-left: 30%;
 }
 
@@ -120,4 +120,8 @@
 
 .page-header__link {
   margin-left: 34%;
+}
+.page-header__not
+{
+  display:none;
 }
