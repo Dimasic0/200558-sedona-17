@@ -9,7 +9,6 @@
 .best-offers__text {
   font-size: 14px;
   line-height: 24px;
-  @extend .information-city__text;
   margin-top: 19px;
   margin-botton: 33px;
   text-align: center;
@@ -26,10 +25,4 @@
   max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
-}
-
-.best-offers,
-.best-offers__wrapper {
-  overflow: hidden;
 }
