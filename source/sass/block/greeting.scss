@@ -1,6 +1,13 @@
 .greeting__wrapper {
   box-sizing: border-box;
   padding-top: 90px;
+  display: block;
+  width: 320px;
+  height: 389px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("../img/intro-triangle.png");
+  background-size: 100% 100%;
 }
 
 .greeting__picture-text {
@@ -9,14 +16,4 @@
   height: 214px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.greeting__wrapper {
-  display: block;
-  width: 320px;
-  height: 389px;
-  margin-left: auto;
-  margin-right: auto;
-  background: url("../img/intro-triangle.png");
-  background-size: 100% 100%;
 }

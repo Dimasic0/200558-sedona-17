@@ -1,10 +1,16 @@
 .information-city__wrapper {
   box-sizing: border-box;
   padding-top: 43px;
+  background-color: white;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: content-box;
 }
 
 .information-city__headline {
   line-height: 26px;
+
   @include font(18px, 700, black, center);
   text-transform: uppercase;
   margin: 0;
@@ -20,12 +26,4 @@
 .information-city__text {
   margin-top: 26px;
   margin-bottom: 27px;
-}
-
-.information-city__wrapper {
-  background-color: white;
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  box-sizing: content-box;
 }

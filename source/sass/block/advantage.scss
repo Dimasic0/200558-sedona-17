@@ -1,6 +1,7 @@
 .advantage__headline,
 .modal__headline {
   margin-top: 27px;
+
   @include font(18px, 700, white, center);
   text-transform: uppercase;
   margin-bottom: 0;
@@ -16,8 +17,9 @@
 
 .advantage__number {
   margin-top: 18px;
+
   @include font(14px, 400, white, center);
-  margin-botton: 0;
+  margin-bottom: 0;
   line-height: 10px;
 }
 
@@ -37,10 +39,9 @@
 }
 
 .advantage__wrapper {
-  width: 100%;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
-  width: 320px;
   display: flex;
   flex-direction: column;
 }
@@ -62,10 +63,11 @@
 }
 
 .advantage__wrapper--details {
-  max-width: 320px;
+  width: 320px;
   flex-direction: column;
   margin-left: auto;
   margin-right: auto;
+    background-color: #eeeeee;
 }
 
 .advantage__reasons--line {
@@ -76,11 +78,6 @@
 .advantage__headline--details {
   margin-top: 33px;
   color: black;
-}
-
-.advantage__wrapper--details {
-  width: 320px;
-  background-color: #eeeeee;
 }
 
 .advantage__text--details {
