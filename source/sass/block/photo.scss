@@ -27,8 +27,8 @@
   margin: 0;
 }
 
-.photo__headline {
-  @extend .offers__headline;
+.photo__headline,
+.photo__info {
   display: block;
   font-size: 14px;
   margin-top: 22px;
@@ -37,7 +37,6 @@
 }
 
 .photo__info {
-  @extend .photo__headline;
   font-weight: 400;
   margin-top: 11px;
   line-height: 10px;

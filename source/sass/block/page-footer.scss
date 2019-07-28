@@ -82,9 +82,6 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 23px;
-}
-
-.page-footer__copyright {
   @include font(14px, 400, black, left);
 }
 

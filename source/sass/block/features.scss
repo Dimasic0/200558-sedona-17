@@ -6,13 +6,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 214px;
-  @extend.advantage__headline;
   margin-top: 39px;
-}
-
-.features__number,
-.features__text {
-  @extend .advantage__text;
 }
 
 .features__number {
@@ -30,7 +24,7 @@
 }
 
 .features__reasons-text {
-  @include block-color(320px, 191px, #81b3d2);
+  @include size_color(320px, 191px, #81b3d2);
 }
 
 .features__wrapper {
@@ -42,5 +36,5 @@
 }
 
 .features__reasons {
-  @include block_background(320px, 260px, "../img/hill_1x.png");
+  @include size_background(320px, 260px, "../img/hill_1x.png");
 }

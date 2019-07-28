@@ -6,7 +6,7 @@
   font-size: 21px;
   text-align: center;
   line-height: 15px;
-  color:black;
+  color: black;
   height: 15px;
   margin-top: 0;
 }
@@ -36,7 +36,7 @@
   margin-right: auto;
   margin-top: 40px;
   border: 0;
-  @include button_details(17px, 47px, 19px, 47px, #81b3d2);
+  @include internal_padding_color(17px, 47px, 19px, 47px, #81b3d2);
 }
 
 .modal__button:hover {

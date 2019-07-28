@@ -1,4 +1,5 @@
-.offers__headline {
+.offers__headline,
+.photo__headline {
   @include font(18px, 700, black, left);
   text-transform: uppercase;
   margin-bottom: 0;
@@ -19,8 +20,8 @@
   width: 320px;
   margin-left: auto;
   margin-right: auto;
-  display: flex;
   flex-direction: row;
+
   &--position {
     margin-top: 22px;
   }
@@ -29,6 +30,18 @@
 .offers__reasons-icon {
   width: 39px;
   background-size: 39px 37px;
+
+  &--housing {
+    margin-right: 9px;
+  }
+
+  &--souvenirs {
+    margin-right: 13px;
+  }
+
+  &--food {
+    margin-right: 12px;
+  }
 }
 
 .offers__icon {
@@ -46,35 +59,13 @@
 .offers__wrapper {
   display: flex;
   flex-direction: column;
-  min-width: 320px;
-  width: 100%;
+  width: 320px;
   max-width: 1012px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
   margin-bottom: 42px;
-}
-
-.offers__reasons-icon {
-  &--housing {
-    margin-right: 9px;
-  }
-
-  &--souvenirs {
-    margin-right: 13px;
-  }
-
-  &--food {
-    margin-right: 12px;
-  }
-}
-
-.offers__wrapper {
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  background-color: white;
+  padding: 0px;
 }
 
 .offers__reasons-icon--specialty-housing,

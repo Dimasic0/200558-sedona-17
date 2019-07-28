@@ -8,7 +8,8 @@
   height: 14px;
 }
 
-.advantage__headline {
+.advantage__headline,
+.features__headline {
   margin-top: 59px;
   color: white;
 }
@@ -25,17 +26,14 @@
 }
 
 .advantage__text,
-.modal__text {
+.modal__text,
+.features__number,
+.features__text {
   margin-top: 21px;
-  @include font(14px, 400, #333333, center);
+  @include font(14px, 400, white, center);
   line-height: 21px;
   text-transform: uppercase;
-  margin-bottom: 26px;
-}
-
-.advantage__text {
-  color: white;
-
+  margin-botton: 26px;
 }
 
 .advantage__wrapper {
@@ -53,7 +51,7 @@
 }
 
 .advantage__picture {
-  @include block-background(320px, 260px, "../img/city_1x.jpg");
+  @include size_background(320px, 260px, "../img/city_1x.jpg");
 }
 
 .advantage__reasons--details {

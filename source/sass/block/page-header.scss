@@ -69,7 +69,7 @@
   display: inline-block;
   margin-top: 17px;
   margin-left: 20%;
-  @include block_background(23px, 21px, "../img/icon-menu.png");
+  @include size_background(23px, 21px, "../img/icon-menu.png");
   padding: 0;
   border: 0;
 }
@@ -121,7 +121,7 @@
 .page-header__link {
   margin-left: 34%;
 }
-.page-header__not
-{
-  display:none;
+
+.page-header__not {
+  display: none;
 }

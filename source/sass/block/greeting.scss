@@ -2,6 +2,7 @@
   display: block;
   width: 282px;
   height: 214px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -15,8 +16,4 @@
   background: url("../img/intro-triangle.png");
   background-size: 100% 100%;
   overflow: hidden;
-}
-
-.greeting__picture-text {
-  margin-top: 90px;
 }
