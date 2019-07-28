@@ -6,7 +6,7 @@
   font-family: "Myriad Pro", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 100;
-  color: white;
+  color: #ffffff;
 }
 
 .features__number {
@@ -24,7 +24,9 @@
 }
 
 .features__reasons-text {
-  @include size_color(320px, 191px, #81b3d2);
+  width:320px;
+  height:191px;
+  background-color: #81b3d2;
 }
 
 .features__wrapper {
@@ -36,5 +38,7 @@
 }
 
 .features__reasons {
-  @include size_background(320px, 260px, "../img/hill_1x.png");
+  width:320px;
+  height:260px;
+  background:url("../img/hill_1x.png");
 }

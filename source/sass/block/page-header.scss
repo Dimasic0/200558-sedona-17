@@ -44,7 +44,7 @@
 }
 
 .main-nav__link {
-  @include font(18px, 700, white, center);
+  @include font(18px, 700, #ffffff, center);
   text-decoration: none;
   width: auto;
 }
@@ -61,15 +61,16 @@
   margin-top: 0;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(255, 255, 255, 1);
+  background-color:#ffffff;
 }
 
 .page-header__button {
   display: inline-block;
   margin-top: 17px;
   margin-left: 20%;
-
-  @include size_background(23px, 21px, "../img/icon-menu.png");
+  width:23px;
+  height:21px;
+  background: url("../img/icon-menu.png");
   padding: 0;
   border: 0;
 }
@@ -122,6 +123,6 @@
   margin-left: 34%;
 }
 
-.page-header__not {
+.page-header__hidden {
   display: none;
 }

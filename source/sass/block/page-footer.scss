@@ -35,15 +35,11 @@
   background-color: #5496bd;
 }
 
-.page-footer {
-  overflow: hidden;
-}
-
 .page-footer__wrapper {
   display: flex;
   flex-direction: column;
   width: 320px;
-  background-color: white;
+  background-color: #ffffff;
   margin-left: auto;
   margin-right: auto;
 }
@@ -83,7 +79,7 @@
   flex-direction: row;
   margin-bottom: 23px;
 
-  @include font(14px, 400, black, left);
+  @include font(14px, 400, #000000, left);
 }
 
 .page-footer__social {

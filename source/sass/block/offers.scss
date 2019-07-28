@@ -1,6 +1,6 @@
 .offers__headline,
 .photo__headline {
-  @include font(18px, 700, black, left);
+  @include font(18px, 700, #000000, left);
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 10px;

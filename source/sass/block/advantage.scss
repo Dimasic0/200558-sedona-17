@@ -2,7 +2,7 @@
 .modal__headline {
   margin-top: 27px;
 
-  @include font(18px, 700, white, center);
+  @include font(18px, 700, #ffffff, center);
   text-transform: uppercase;
   margin-bottom: 0;
   line-height: 12px;
@@ -12,13 +12,13 @@
 .advantage__headline,
 .features__headline {
   margin-top: 59px;
-  color: white;
+  color: #ffffff;
 }
 
 .advantage__number {
   margin-top: 18px;
 
-  @include font(14px, 400, white, center);
+  @include font(14px, 400, #ffffff, center);
   margin-bottom: 0;
   line-height: 10px;
 }
@@ -33,10 +33,10 @@
 .features__text {
   margin-top: 21px;
 
-  @include font(14px, 400, white, center);
+  @include font(14px, 400, #ffffff, center);
   line-height: 21px;
   text-transform: uppercase;
-  margin-botton: 26px;
+  margin-bottom: 26px;
 }
 
 .advantage__wrapper {
@@ -53,7 +53,9 @@
 }
 
 .advantage__picture {
-  @include size_background(320px, 260px, "../img/city_1x.jpg");
+  width:320px;
+  height:260px;
+  background: url("../img/city_1x.jpg");
 }
 
 .advantage__reasons--details {
@@ -78,9 +80,15 @@
 
 .advantage__headline--details {
   margin-top: 33px;
-  color: black;
+  color: #000000;
 }
 
 .advantage__text--details {
   color: #333333;
+}
+.advantage__text
+{
+  width:273px;
+  margin-left: auto;
+  margin-right: auto;
 }
