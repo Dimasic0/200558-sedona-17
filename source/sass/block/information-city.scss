@@ -1,5 +1,6 @@
 .information-city__wrapper {
   padding-top: 43px;
+  padding-bottom: 27px;
   background-color: #ffffff;
   width: 320px;
   margin-left: auto;
@@ -21,11 +22,8 @@
   text-transform: uppercase;
 }
 
-.information-city {
-  padding-bottom: 27px;
-}
-
 .information-city__text {
   margin-top: 26px;
   margin-bottom: 0;
+  height:46px;
 }
