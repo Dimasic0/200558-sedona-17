@@ -10,7 +10,7 @@
 .information-city__headline {
   line-height: 26px;
 
-  @include font(18px, 700, black, center);
+  @include font(18px, 700, #000000, center);
   text-transform: uppercase;
   margin: 0;
 }
