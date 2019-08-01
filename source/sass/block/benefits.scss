@@ -3,3 +3,231 @@
   padding: 0;
   margin: 0;
 }
+
+.benefits__headline,
+.modal__headline {
+  margin-top: 27px;
+
+  @include font(18px, 700, #ffffff, center);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 12px;
+  height: 14px;
+}
+
+.benefits__headline,
+.benefits__head {
+  margin-top: 59px;
+  color: #ffffff;
+}
+
+.benefits__number {
+  margin-top: 18px;
+
+  @include font(14px, 400, #ffffff, center);
+  margin-bottom: 0;
+  line-height: 10px;
+}
+
+.benefits__number--details {
+  color: #333333;
+}
+
+.benefits__text,
+.modal__text,
+.benefits__room,
+.benefits__proposal {
+  margin-top: 21px;
+
+  @include font(14px, 400, #ffffff, center);
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+}
+
+.benefits__wrapper {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.benefits__reasons {
+  width: 320px;
+  background-color: #81b3d2;
+}
+
+.benefits__picture {
+  width: 320px;
+  height: 260px;
+  background: url("../img/city_1x.jpg");
+}
+
+.benefits__reasons--details {
+  background: #eeeeee;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__wrapper--details {
+  width: 320px;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #eeeeee;
+}
+
+.benefits__reasons--line {
+  border-top: 1px solid #d6d6d6;
+  border-bottom: 1px solid #d6d6d6;
+}
+
+.benefits__headline--details {
+  margin-top: 33px;
+  color: #000000;
+}
+
+.benefits__text--details {
+  color: #333333;
+}
+
+.benefits__text {
+  width: 273px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__heading,
+.photo__headline {
+  @include font(18px, 700, #000000, left);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+
+.benefits__heading {
+  font-family: "Myriad Pro", "Arial", sans-serif;
+}
+
+.benefits__sentence {
+  font-family: "Myriad Pro", "Arial", sans-serif;
+
+  @include font(14px, 400, #333333, left);
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 0;
+  margin-top: 25px;
+
+  &--last {
+    width: 201px;
+    height: 57px;
+    padding-bottom: 42px;
+  }
+}
+
+.benefits__reasons--position {
+  margin-top: 22px;
+  display: flex;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  flex-direction: row;
+  background-color: #ffffff;
+}
+
+
+.benefits__reasons-text {
+  width: 100%;
+  background-size: 39px 37px;
+
+  &--housing {
+    margin-right: 9px;
+  }
+
+  &--souvenirs {
+    margin-right: 13px;
+  }
+
+  &--food {
+    margin-right: 12px;
+  }
+}
+
+.offers__icon {
+  &--proptions-housing {
+    width: 39px;
+    height: 37px;
+  }
+
+  &--proptions {
+    width: 32px;
+    height: 38px;
+  }
+}
+
+.benefits__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  max-width: 1012px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.benefits__reasons-icon--specialty-housing,
+.benefits__reasons-icon--specialty-souvenirs,
+.benefits__reasons-icon--specialty-food {
+  margin-right: 30px;
+}
+
+.benefits__head {
+  margin-left: auto;
+  margin-right: auto;
+  width: 214px;
+  margin-top: 39px;
+  font-family: "Myriad Pro", "Arial", sans-serif;
+  font-size: 18px;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.benefits__room {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 14px;
+  font-family: "Arial", sans-serif;
+}
+
+.benefits__proposal {
+  width: 281px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 16px;
+  font-family: "Myriad Pro", "Arial", sans-serif;
+}
+
+.benefits__reasons-sentence {
+  width: 320px;
+  height: 191px;
+  background-color: #81b3d2;
+}
+
+.features__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__reasons-painting {
+  width: 320px;
+  height: 260px;
+  background: url("../img/hill_1x.png");
+}
