@@ -51,6 +51,7 @@
   margin-right: auto;
   display: flex;
   flex-direction: column;
+  padding:0px;
 }
 
 .benefits__reasons {
@@ -128,7 +129,7 @@
 }
 
 .benefits__reasons--position {
-  margin-top: 22px;
+  padding-top: 22px;
   display: flex;
   width: 320px;
   margin-left: auto;
@@ -165,18 +166,6 @@
     width: 32px;
     height: 38px;
   }
-}
-
-.benefits__wrapper {
-  display: flex;
-  flex-direction: column;
-  width: 320px;
-  max-width: 1012px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff;
-  margin-bottom: 0;
-  padding: 0;
 }
 
 .benefits__reasons-icon--specialty-housing,
