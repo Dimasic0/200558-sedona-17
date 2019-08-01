@@ -6,20 +6,20 @@
   margin-top: 10px;
 }
 
-.benefits__heading
-{
-  font-family: "Myriad Pro","Arial", sans-serif;
+.benefits__heading {
+  font-family: "Myriad Pro", "Arial", sans-serif;
 }
+
 .benefits__sentence {
-  font-family:"Myriad Pro","Arial", sans-serif;
+  font-family: "Myriad Pro", "Arial", sans-serif;
   @include font(14px, 400, #333333, left);
   line-height: 21px;
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 25px;
-  &--last
-  {
-    width:201px;
+
+  &--last {
+    width: 201px;
   }
 }
 
