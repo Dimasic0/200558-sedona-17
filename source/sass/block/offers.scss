@@ -1,4 +1,4 @@
-.offers__headline,
+.benefits__heading,
 .photo__headline {
   @include font(18px, 700, #000000, left);
   text-transform: uppercase;
@@ -6,29 +6,37 @@
   margin-top: 10px;
 }
 
-.offers__text {
+.benefits__heading
+{
+  font-family: "Myriad Pro","Arial", sans-serif;
+}
+.benefits__sentence {
+  font-family:"Myriad Pro","Arial", sans-serif;
   @include font(14px, 400, #333333, left);
   line-height: 21px;
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 25px;
+  &--last
+  {
+    width:201px;
+  }
 }
 
-.offers__reasons {
+.benefits__reasons--position {
+  margin-top: 22px;
   display: flex;
   margin: 0;
   width: 320px;
   margin-left: auto;
   margin-right: auto;
   flex-direction: row;
-
-  &--position {
-    margin-top: 22px;
-  }
+  background-color: #ffffff;
 }
 
-.offers__reasons-icon {
-  width: 39px;
+
+.benefits__reasons-text {
+  width: 100%;
   background-size: 39px 37px;
 
   &--housing {
@@ -56,7 +64,7 @@
   }
 }
 
-.offers__wrapper {
+.benefits__wrapper {
   display: flex;
   flex-direction: column;
   width: 320px;
@@ -69,8 +77,8 @@
   padding-bottom: 42px;
 }
 
-.offers__reasons-icon--specialty-housing,
-.offers__reasons-icon--specialty-souvenirs,
-.offers__reasons-icon--specialty-food {
+.benefits__reasons-icon--specialty-housing,
+.benefits__reasons-icon--specialty-souvenirs,
+.benefits__reasons-icon--specialty-food {
   margin-right: 30px;
 }

@@ -1,4 +1,4 @@
-.advantage__headline,
+.benefits__headline,
 .modal__headline {
   margin-top: 27px;
 
@@ -9,13 +9,13 @@
   height: 14px;
 }
 
-.advantage__headline,
-.features__headline {
+.benefits__headline,
+.benefits__head {
   margin-top: 59px;
   color: #ffffff;
 }
 
-.advantage__number {
+.benefits__number {
   margin-top: 18px;
 
   @include font(14px, 400, #ffffff, center);
@@ -23,14 +23,14 @@
   line-height: 10px;
 }
 
-.advantage__number--details {
+.benefits__number--details {
   color: #333333;
 }
 
-.advantage__text,
+.benefits__text,
 .modal__text,
-.features__number,
-.features__text {
+.benefits__room,
+.benefits__proposal {
   margin-top: 21px;
 
   @include font(14px, 400, #ffffff, center);
@@ -39,7 +39,7 @@
   margin-bottom: 26px;
 }
 
-.advantage__wrapper {
+.benefits__wrapper {
   width: 320px;
   margin-left: auto;
   margin-right: auto;
@@ -47,25 +47,25 @@
   flex-direction: column;
 }
 
-.advantage__reasons {
+.benefits__reasons {
   width: 320px;
   background-color: #81b3d2;
 }
 
-.advantage__picture {
+.benefits__picture {
   width: 320px;
   height: 260px;
   background: url("../img/city_1x.jpg");
 }
 
-.advantage__reasons--details {
+.benefits__reasons--details {
   background: #eeeeee;
-  width: 280px;
+  width: 320px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.advantage__wrapper--details {
+.benefits__wrapper--details {
   width: 320px;
   flex-direction: column;
   margin-left: auto;
@@ -73,21 +73,21 @@
   background-color: #eeeeee;
 }
 
-.advantage__reasons--line {
+.benefits__reasons--line {
   border-top: 1px solid #d6d6d6;
   border-bottom: 1px solid #d6d6d6;
 }
 
-.advantage__headline--details {
+.benefits__headline--details {
   margin-top: 33px;
   color: #000000;
 }
 
-.advantage__text--details {
+.benefits__text--details {
   color: #333333;
 }
 
-.advantage__text {
+.benefits__text {
   width: 273px;
   margin-left: auto;
   margin-right: auto;
