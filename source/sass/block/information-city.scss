@@ -1,0 +1,29 @@
+.information-city__wrapper {
+  padding-top: 43px;
+  padding-bottom: 27px;
+  background-color: #ffffff;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.information-city__headline {
+  line-height: 26px;
+
+  @include font(18px, 700, #000000, center);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.information-city__text,
+.best-offers__text {
+  @include font(14px, 400, #333333, center);
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.information-city__text {
+  margin-top: 26px;
+  margin-bottom: 0;
+  height: 46px;
+}

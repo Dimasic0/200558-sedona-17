@@ -9,5 +9,5 @@
 node_modules/
 npm-debug.*
 source/css/*.css
-source/css/*.map
-Thumbs.db
+Thumbs.db 
+source/css/style.css.map

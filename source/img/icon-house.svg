@@ -1,15 +1,22 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="74.695px" height="72.346px" viewBox="0 0 74.695 72.346" enable-background="new 0 0 74.695 72.346" xml:space="preserve">
-  <g>
-    <path d="M29.503,65.345h16V41.407h-16V65.345z M42.566,62.407H32.441V44.345h10.125V62.407z"/>
-    <path d="M72.62,39.44l2.075-2.078l-9.907-9.913V0.47H50.974v13.161L37.349,0L0,37.363l2.077,2.078l7.832-7.832v37.799H5.971v2.938 h63.875v-2.938h-5.059v-37.8L72.62,39.44z M53.913,3.408h7.938v21.104l-7.938-7.94V3.408z M61.85,69.407H12.846V28.671 L37.348,4.169L61.85,28.671V69.407z"/>
-    <path d="M29.753,27.21c0,4.28,3.47,7.75,7.75,7.75s7.75-3.47,7.75-7.75c0-4.279-3.47-7.75-7.75-7.75S29.753,22.93,29.753,27.21z M37.503,22.241c2.745,0,4.97,2.225,4.97,4.97s-2.225,4.971-4.97,4.971s-4.97-2.226-4.97-4.971S34.759,22.241,37.503,22.241z"/>
-    <rect x="16.909" y="41.407" width="3" height="3.938"/>
-    <rect x="22.846" y="41.407" width="3" height="3.938"/>
-    <rect x="16.909" y="47.407" width="3" height="3.938"/>
-    <rect x="22.846" y="47.407" width="3" height="3.938"/>
-    <rect x="48.846" y="41.407" width="3" height="3.938"/>
-    <rect x="54.784" y="41.407" width="3" height="3.938"/>
-    <rect x="48.846" y="47.407" width="3" height="3.938"/>
-    <rect x="54.784" y="47.407" width="3" height="3.938"/>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="37" viewBox="0 0 39 37">
+  <metadata>
+    <?xpacket begin="﻿" id="W5M0MpCehiHzreSzNTczkc9d"?>
+    <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c142 79.160924, 2017/07/13-01:06:39        ">
+      <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+        <rdf:Description rdf:about="" />
+      </rdf:RDF>
+    </x:xmpmeta>
+
+
+
+
+
+
+
+
+
+
+    <?xpacket end="w"?>
+  </metadata>
+  <image id="icon-house.svg" width="39" height="37" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAACcAAAAlCAMAAAD2tQAMAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAOVBMVEWBs9L///+Bs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9KBs9IAAAD5kbl1AAAAEXRSTlMAADDfj79g74BAn3AQr1AgzzBqiJEAAAABYktHRBJ7vGwAAAAACXBIWXMAAAsSAAALEgHS3X78AAAAB3RJTUUH4wQJDhY04z5GrgAAAR5JREFUOMvV1OsWgiAMAOBpDIZatvd/2cbGJRPldzsckuMH42YAp5gfs/461PBTig4LHBQia1DfCUODyFLFCydsAa/wzikDgzdO2KoPCV47YT4/CnxcuS+WIF+4A1Poe66yOcYGT66wLW2vnUiCv66Ohvx8OQ57hsvRtaT8lHplqov5dm0JkXVyjHUxrjlhDoojrUt7lTkWJyznkWWE4GF/26jaw2A+0+q0U+sm7q3Q5hbbC9gJXYTmKG3PBHuw3YR+pP2TkV4Ai4eBm2bc2iq9lkgWvrQP+5ecXDcpZB+F7J+1z85hKsRrlGDM7bOzPFTPY5S3uFHe4q7yWtDxHvyxK+dx77z96aEbuO59yW6nhZH6oW+yizyI7LY4CHEfdhUZB4yDujsAAAAASUVORK5CYII=" />
 </svg>

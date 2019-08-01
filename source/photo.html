@@ -9,69 +9,70 @@
 
 <body>
   <!-- HEADER -->
-   <header class="page-header">
+  <header class="page-header">
     <nav class="main-nav">
       <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a href="index.html" class="main-nav__link">Главная</a>
+        <li class="main-nav__item main-nav__item--details">
+          <a href="index.html" class="main-nav__link main-nav__link--details">Главная</a>
+          <!--<button class="main-nav__button--details">
+            <img src="img/icon-cross.svg" alt="" class="page-header__painting">
+          </button>-->
         </li>
         <li class="main-nav__item">
-          <a class="main-nav__link">Фото и видео</a>
+          <a class="main-nav__link main-nav__link--location">Фото и видео</a>
         </li>
         <li class="main-nav__item">
-          <a href="form.html" class="main-nav__link">Форма отзыва</a>
+          <a href="form.html" class="main-nav__link main-nav__link--position">Форма отзыва</a>
         </li>
         <li class="main-nav__item">
-          <a href="https://htmlacademy.ru" class="main-nav__link">Html academy</a>
+          <a href="https://htmlacademy.ru" class="main-nav__link main-nav__link--disposition">Html academy</a>
         </li>
       </ul>
-     </nav>
-      <div class="page-header__logo">
-        <a href="index.html">
-        <img src="http://placehold.it/150x100" class="page-header__picture" alt="Город Седона">
-        </a>
-        <button class="page-header__button page-header__button--close"></button>
-      </div>
+    </nav>
+    <div class="page-header__logo">
+      <a href="index.html" class="page-header__link">
+        <img src="img/logo-sedona-mobile.svg" class="page-header__icon" alt="Город Седона">
+      </a>
+      <button class="page-header__button"><span class="visually-hidden">Меню</span></button>
+    </div>
   </header>
   <!-- MAIN -->
   <main>
-    <section class="main-banner">
-      <div class="main-banner__wrapper">
-        <img src="http://placehold.it/150x100" class="main-banner__picture-text" alt="Седона">
-      </div>
-    </section>
+    <article class="main-banner">
+      <img src="img/text-sedona.svg" class="main-banner__picture-text" alt="Седона">
+    </article>
     <section class="best-offers">
       <div class="best-offers__wrapper">
         <h1 class="best-offers__headline">Фото и видео</h1>
-        <p class="best-offers__text">Не можете решиться на путешествие из-за курса?<br>
+        <p class="best-offers__text">Не можете решиться на путешествие из-за курса?
           фотографии помогут вам забыть о политике и экономике </p>
       </div>
     </section>
     <section class="photo">
       <div class="photo__wrapper">
         <div class="photo__benefits">
-          <a href="http://placehold.it/150x100"><img src="http://placehold.it/150x100" class="photo__picture" alt="Ландшафт Седоны"></a>
+          <a href="img/photo-sunset-mobile@1x.jpg" class="photo__link"><img src="img/photo-sunset-mobile@1x.jpg" class="photo__picture" alt="Ландшафт Седоны"></a>
           <h2 class="photo__headline">Неродные просторы</h2>
           <p class="photo__info">Автор фото:Борис</p>
           <button class="photo__button"></button>
           <p class="photo__likes">1350</p>
         </div>
         <div class="photo__benefits">
-          <a href="http://placehold.it/150x100"><img src="http://placehold.it/150x100" class="photo__picture" alt="Растительность Седоны"></a>
+          <a href="img/photo-cactus-mobile@1x.jpg" class="photo__link"><img src="img/photo-cactus-mobile@1x.jpg" class="photo__picture" alt="Растительность Седоны"></a>
           <h2 class="photo__headline">Местная растительность</h2>
           <p class="photo__info">Автор фото:Сергей</p>
           <button class="photo__button"></button>
           <p class="photo__likes">143</p>
         </div>
         <div class="photo__benefits">
-          <a href="http://placehold.it/150x100"><img src="http://placehold.it/150x100" class="photo__picture" alt="Лесные массивы Седоны"></a>
+          <a href="img/photo-roads-mobile@1x.jpg" class="photo__link"><img src="img/photo-roads-mobile@1x.jpg" class="photo__picture" alt="Лесные массивы Седоны"></a>
           <h2 class="photo__headline">Дорога на север</h2>
           <p class="photo__info">Автор фото:Петр</p>
           <button class="photo__button"></button>
           <p class="photo__likes">96</p>
         </div>
-        <div class="photo__benefits">
-          <a href="http://placehold.it/150x100"><img src="http://placehold.it/150x100" class="photo__picture" alt="Горы Седоны"></a>
+        <div class="photo__benefits photo__benefits--last">
+          <a href="img/photo-4-mobile.jpg" class="photo__link"><img src="img/photo-4-mobile.jpg" class="photo__picture" alt="Горы Седоны"></a>
           <h2 class="photo__headline">Мост дьявола</h2>
           <p class="photo__info">Автор фото:Антон</p>
           <button class="photo__button"></button>
@@ -88,22 +89,21 @@
       </div>
       <ul class="page-footer__social">
         <li class="page-footer__item">
-        <a href="https://twitter.com/" class="page-footer__link"></a>
+          <a href="https://twitter.com/" class="page-footer__link">
+          </a>
         </li>
         <li class="page-footer__item">
-        <a href="https://www.facebook.com/campaign/landing.php?campaign_id=298364580528938&extra_1=yandex_12337837700%7Cdesktop%7C1903759857%7C%7Cfacebook%7Cnone%7C8095dy448850&placement=none&creative=1903759857&keyword=facebook&partner_id=yandexsem&extra_2=search&adposition=premium_1" class="page-footer__link">
-        </a>
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=298364580528938&extra_1=yandex_12337837700%7Cdesktop%7C1903759857%7C%7Cfacebook%7Cnone%7C8095dy448850&placement=none&creative=1903759857&keyword=facebook&partner_id=yandexsem&extra_2=search&adposition=premium_1" class="page-footer__link">
+          </a>
         </li>
         <li class="page-footer__item">
-        <a href="https://www.youtube.com/" class="page-footer__link"></a>
+          <a href="https://www.youtube.com/" class="page-footer__link">
+          </a>
         </li>
       </ul>
       <div class="page-footer__copyright">
         <p class="page-footer__copyright">Разработано</p>
         <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link">
-            Htmlacademy
-          <div class="page-footer__icon">
-          </div>
         </a>
       </div>
     </div>
