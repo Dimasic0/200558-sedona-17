@@ -1,4 +1,4 @@
-@media(min-width:1200px) {
+@media (min-width:1200px) {
 
   .photo__wrapper .photo__benefits {
     width: 400px;
@@ -19,7 +19,7 @@
     margin-top: -72px;
   }
 
-  .photo__row div,
+  .photo__row div
   {
     background-color: rgba(0, 0, 0, 0.3);
   }
@@ -70,7 +70,7 @@
     width: 1200px;
     height: 518px;
     background-size: 1200px 57px, 100% 100%;
-    background-position: 0px 462px, 0px 0;
+    background-position: 0px 462px, 0 0;
   }
 
   .page-footer {
