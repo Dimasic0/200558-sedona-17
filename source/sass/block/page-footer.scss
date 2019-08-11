@@ -80,6 +80,8 @@
   width: 27px;
   height: 34px;
   background: url("../img/logo-htmlacademy.svg");
+  background-color: white;
+  margin-left: 11px;
 }
 
 .page-footer__icon {
@@ -95,11 +97,6 @@
   line-height: 10px;
   color: #000000;
   margin-top: 11px;
-}
-
-.page-footer__link--htmlacademy {
-  background-color: white;
-  margin-left: 11px;
 }
 
 .page-footer__link--twitter svg {
