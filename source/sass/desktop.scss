@@ -1,0 +1,88 @@
+@media(min-width:1200px) {
+
+  .photo__wrapper .photo__benefits {
+    width: 400px;
+    height: 267px;
+  }
+
+  .photo__benefits {
+    &:nth-child(1) {
+      width: 100%;
+    }
+  }
+
+  .photo__picture--details {
+    height: 400px;
+  }
+
+  .photo__row {
+    margin-top: -72px;
+  }
+
+  .photo__row div,
+  {
+    background-color:rgba(0,0,0,0.3);
+  }
+
+  .photo__please--specialty
+  {
+   width:27%;
+  }
+
+  .photo__row .photo__data,
+  .photo__row .photo__please {
+    background-color: red;
+  }
+
+  .photo__benefits--last .photo__link,
+  .photo__benefits--last .photo__row {
+    width: 100%;
+  }
+
+  .photo__benefits--details .photo__link
+  {
+    height:100%;
+  }
+
+  .photo__picture,
+  .photo__link
+  {
+    height:100%;
+  }
+
+  .photo__wrapper
+  {
+    text-align: left;
+  }
+  .photo__benefits--last
+  {
+    display: inline-block;
+    margin-left: -5px;
+  }
+
+  .photo__wrapper .photo__benefits--details
+  {
+    height:400px;
+  }
+
+  .main-nav__list
+  {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-banner
+  {
+    width:1200px;
+    height: 518px;
+    background-size: 1200px 57px, 100% 100%;
+    background-position: 0px 462px, 0px 0;
+  }
+
+  .page-footer
+  {
+    margin-left:auto;
+    margin-right: auto;
+  }
+}

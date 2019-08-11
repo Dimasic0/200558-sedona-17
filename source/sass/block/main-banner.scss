@@ -2,8 +2,11 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background: url("../img/intro-triangle_1.png") 0 0;
-  background-size: 100% 100%;
+  background-image: url("../img/bg-intro-triangle-mobile.svg"),
+    url("../img/bg-back-mobile@1x.jpg");
+  background-size: 100% 57px, 768px 389px;
+  background-position: 0 117px, -411px -168px;
+  background-repeat: no-repeat;
   width: 320px;
   height: 158px;
   padding-top: 52px;
@@ -24,5 +27,5 @@
 
 .main-banner__picture-text {
   width: 229px;
-  height: 39px;
+  height: 97px;
 }

@@ -1,4 +1,12 @@
 .modal__headline {
+  margin-top: 27px;
+
+  @include font(18px, 700, #ffffff, center);
+  text-transform: uppercase;
+  margin-bottom: 0;
+  line-height: 12px;
+  height: 14px;
+
   font-size: 21px;
   text-align: center;
   line-height: 15px;
@@ -8,7 +16,13 @@
 }
 
 .modal__text {
-  width: 296px;
+  margin-top: 21px;
+
+  @include font(14px, 400, #ffffff, center);
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  width: 262px;
   text-align: center;
   margin-top: 22px;
   margin-left: auto;
@@ -46,9 +60,14 @@
 
 .modal__Interested {
   width: 320px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 33px;
   padding-bottom: 49px;
   background-color: #ffffff;
+}
+
+.modal__new-line {
+  display: none;
 }
