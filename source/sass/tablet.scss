@@ -1,25 +1,4 @@
 @media (min-width: 768px) {
-  .main-nav__item {
-    &:first-child {
-      order: -1;
-    }
-
-    &:nth-child(2) {
-      order: -1;
-    }
-
-    &--details,
-    &:nth-child(3) {
-      padding-bottom: 23px;
-    }
-
-    &--logo {
-      width: auto;
-      padding: 0;
-      order: -1;
-    }
-  }
-
   .main-nav__button {
     display: none;
   }
@@ -42,10 +21,12 @@
 
     &:nth-child(1) {
       width: 20%;
+      order: -1;
     }
 
     &:nth-child(2) {
       width: 20%;
+      order: -1;
     }
 
     &:nth-child(3) {
@@ -58,7 +39,6 @@
 
     &--logo {
       width: 20%;
-
       margin: 0;
     }
 
@@ -66,6 +46,17 @@
     &:nth-child(3),
     &:nth-child(4) {
       padding-bottom: 23px;
+    }
+
+    &--details,
+    &:nth-child(3) {
+      padding-bottom: 23px;
+    }
+
+    &--logo {
+      width: auto;
+      padding: 0;
+      order: -1;
     }
   }
 
@@ -153,18 +144,15 @@
     max-width: 1200px;
   }
 
-  .page-footer__social {
-    display: flex;
-    padding: 0px;
-    align-content: space-between;
-  }
-
   .page-footer__info {
     margin-top: 51px;
     margin-left: 8%;
   }
 
   .page-footer__social {
+    display: flex;
+    padding: 0;
+    align-content: space-between;
     margin-top: 36px;
   }
 
@@ -248,7 +236,7 @@
 
   .photo__benefits--last .photo__link {
     width: 324px;
-    margin-left: 0px;
+    margin-left: 0;
   }
 
   .photo__benefits--last .photo__row {

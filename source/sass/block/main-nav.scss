@@ -28,6 +28,19 @@
   &--details {
     border-top: 0;
   }
+
+  &----logo {
+    width: 320px;
+    height: 56px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    border: 0;
+    background-color: #ffffff;
+  }
 }
 
 .main-nav__link {
@@ -72,19 +85,6 @@
 
 .main-nav__link--disposition {
   margin-left: 30%;
-}
-
-.main-nav__item--logo {
-  width: 320px;
-  height: 56px;
-  display: flex;
-  flex-direction: row;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0;
-  border: 0;
-  background-color: #ffffff;
 }
 
 .main-nav__button {

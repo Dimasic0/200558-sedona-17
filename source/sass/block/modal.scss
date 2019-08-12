@@ -1,6 +1,4 @@
 .modal__headline {
-  margin-top: 27px;
-
   @include font(18px, 700, #ffffff, center);
   text-transform: uppercase;
   margin-bottom: 0;
@@ -14,8 +12,6 @@
 
 .modal__text {
   @include font(14px, 400, #ffffff, center);
-  line-height: 21px;
-  text-transform: uppercase;
   width: 262px;
   text-align: center;
   margin-top: 22px;
