@@ -56,6 +56,7 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 0;
+
   @include font(14px, 400, #000000, left);
 }
 
