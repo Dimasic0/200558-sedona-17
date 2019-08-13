@@ -222,7 +222,7 @@
     }
   }
 
-   .benefits__wrap {
+  .benefits__wrap {
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
@@ -245,7 +245,7 @@
     width: 67%;
   }
 
-   .benefits__reasons {
+  .benefits__reasons {
     width: 33%;
     flex-direction: column;
   }
@@ -313,13 +313,12 @@
   .benefits__reasons--details:nth-child(2) {
     border-bottom: 0;
   }
-  .benefits__text
-  {
-   width: 171px;
+
+  .benefits__text {
+    width: 171px;
   }
 
-  .benefits__reasons-icon
-  {
-    margin-left:0;
+  .benefits__reasons-icon {
+    margin-left: 0;
   }
 }

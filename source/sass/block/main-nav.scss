@@ -13,10 +13,10 @@
   margin-right: auto;
 }
 
-.main-nav__link--sedona
-{
- margin-left: 109px;
+.main-nav__link--sedona {
+  margin-left: 109px;
 }
+
 .main-nav__item {
   display: block;
   padding: 20px 0 18px 0;
@@ -171,8 +171,7 @@
   }
 }
 
-@media (min-width: 1200px)
-{
+@media (min-width: 1200px) {
   .main-nav__list {
     width: 1200px;
     margin-left: auto;
