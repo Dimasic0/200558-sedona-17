@@ -211,7 +211,6 @@
 }
 
 @media (min-width: 768px) {
-
   .benefits__wrapper {
     flex-direction: row;
     width: 100%;
@@ -252,6 +251,7 @@
 
   .benefits__reasons-icon {
     margin-right: 0;
+    margin-left: 0;
   }
 
   .benefits__icon {
@@ -316,9 +316,5 @@
 
   .benefits__text {
     width: 171px;
-  }
-
-  .benefits__reasons-icon {
-    margin-left: 0;
   }
 }
