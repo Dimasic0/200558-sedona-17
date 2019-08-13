@@ -135,7 +135,7 @@
 .benefits__reasons-icon--specialty-souvenirs,
 .benefits__reasons-icon--specialty-food {
   margin-right: 13px;
-  margin-left: 25px;
+  margin-left: 21px;
 }
 
 .benefits__head {
@@ -208,4 +208,118 @@
 .benefits__reasons--details:nth-child(1),
 .benefits__reasons--details:nth-child(2) {
   border-bottom: 1px solid #d6d6d6;
+}
+
+@media (min-width: 768px) {
+
+  .benefits__wrapper {
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+
+    &--details {
+      background-color: #eeeeee;
+    }
+  }
+
+   .benefits__wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .benefits__reasons-painting {
+    width: 67%;
+    height: 251px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .benefits__reasons-sentence {
+    width: 33%;
+    height: 206px;
+    padding-bottom: 0;
+  }
+
+  .benefits__picture {
+    width: 67%;
+  }
+
+   .benefits__reasons {
+    width: 33%;
+    flex-direction: column;
+  }
+
+  .benefits__reasons-icon {
+    margin-right: 0;
+  }
+
+  .benefits__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72px;
+    height: 72px;
+  }
+
+  .benefits__heading,
+  .benefits__sentence {
+    text-align: center;
+  }
+
+  .benefits__sentence--last {
+    margin-left: auto;
+    margin-right: auto;
+    width: 176px;
+  }
+
+  .benefits__heading {
+    font-size: 21px;
+  }
+
+  .benefits__sentence {
+    width: 177px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits__reasons--disposition {
+    order: 1;
+  }
+
+  .benefits__sentence--souvenirs {
+    width: 180px;
+  }
+
+  .benefits__headline {
+    font-size: 21px;
+    line-height: 26px;
+    width: 121px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits__head {
+    font-size: 21px;
+    text-align: center;
+    width: 167px;
+  }
+
+  .benefits__proposal {
+    width: 175px;
+  }
+
+  .benefits__reasons--details:nth-child(1),
+  .benefits__reasons--details:nth-child(2) {
+    border-bottom: 0;
+  }
+  .benefits__text
+  {
+   width: 171px;
+  }
+
+  .benefits__reasons-icon
+  {
+    margin-left:0;
+  }
 }

@@ -13,6 +13,10 @@
   margin-right: auto;
 }
 
+.main-nav__link--sedona
+{
+ margin-left: 109px;
+}
 .main-nav__item {
   display: block;
   padding: 20px 0 18px 0;
@@ -96,4 +100,83 @@
   background: url("../img/icon-menu.png");
   padding: 0;
   border: 0;
+}
+
+@media (min-width: 768px) {
+  .main-nav__button {
+    display: none;
+  }
+
+  .main-nav__picture {
+    margin-left: 0;
+  }
+
+  .main-nav__link {
+    margin-left: 0;
+    font-size: 14px;
+    color: black;
+  }
+
+  .main-nav__item {
+    border: 0;
+    background-color: #ffffff;
+    text-align: center;
+
+    &:nth-child(1) {
+      width: 20%;
+      order: -1;
+    }
+
+    &:nth-child(2) {
+      width: 20%;
+      order: -1;
+    }
+
+    &:nth-child(3) {
+      width: 21%;
+    }
+
+    &:nth-child(4) {
+      width: 19%;
+    }
+
+    &--logo {
+      width: 20%;
+      margin: 0;
+      padding: 0;
+      order: -1;
+      height: 57px;
+    }
+
+    &:nth-child(2),
+    &:nth-child(3),
+    &:nth-child(4),
+    &--details {
+      padding-bottom: 23px;
+    }
+  }
+
+  .main-nav__link--sedona {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .main-nav {
+    width: 100%;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1200px)
+{
+  .main-nav__list {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 }

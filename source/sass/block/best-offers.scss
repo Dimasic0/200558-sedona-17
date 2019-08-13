@@ -25,3 +25,19 @@
   padding-top: 44px;
   padding-bottom: 34px;
 }
+
+@media (min-width: 768px) {
+
+.best-offers__wrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .best-offers__headline {
+    font-size: 30px;
+  }
+
+  .best-offers__text {
+    width: 424px;
+  }
+}
