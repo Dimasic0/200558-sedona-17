@@ -14,11 +14,6 @@
   background-color: #5496bd;
 }
 
-.page-footer__link--htmlacademy
-{
-font-size:0;
-}
-
 .page-footer__wrapper {
   display: flex;
   flex-direction: column;
@@ -77,6 +72,7 @@ font-size:0;
   background: url("../img/logo-htmlacademy.svg");
   background-color: white;
   margin-left: 11px;
+  font-size: 0;
 }
 
 .page-footer__icon {
