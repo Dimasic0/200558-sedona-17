@@ -1,4 +1,4 @@
-.page-footer__item {
+.page-footer__social-item {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
@@ -10,8 +10,13 @@
   flex-direction: row;
 }
 
-.page-footer__item:active {
+.page-footer__social-item:active {
   background-color: #5496bd;
+}
+
+.page-footer__link--htmlacademy
+{
+font-size:0;
 }
 
 .page-footer__wrapper {
@@ -30,13 +35,11 @@
   line-height: 16px;
   height: 15px;
   color: #000000;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   margin-top: 41px;
 }
 
-.page-footer__item:last-child {
+.page-footer__social-item:last-child {
   margin-right: auto;
 }
 
@@ -101,12 +104,12 @@
   margin-left: 20px;
 }
 
-.page-footer__link--YouTube svg {
+.page-footer__link--youTube svg {
   margin-top: 17px;
   margin-left: 13px;
 }
 
-.page-footer__item--facebook {
+.page-footer__social-item--facebook {
   margin-left: 6px;
   margin-right: 6px;
 }
