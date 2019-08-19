@@ -63,7 +63,7 @@ body {
   margin-left: auto;
   margin-right: auto; }
 
-.main-nav__link--sedona {
+.main-nav__link--logo {
   margin-left: 109px; }
 
 .main-nav__item {
@@ -183,7 +183,7 @@ body {
       height: 57px; }
     .main-nav__item:nth-child(2), .main-nav__item:nth-child(3), .main-nav__item:nth-child(4), .main-nav__item--details {
       padding-bottom: 23px; }
-  .main-nav__link--sedona {
+  .main-nav__link--logo {
     margin-left: auto;
     margin-right: auto; }
   .main-nav {
@@ -329,7 +329,7 @@ body {
     font-size: 21px;
     width: 429px; } }
 
-.page-footer__item {
+.page-footer__social-item {
   width: 46px;
   height: 48px;
   background-color: #81b3d2;
@@ -344,7 +344,7 @@ body {
       -ms-flex-direction: row;
           flex-direction: row; }
 
-.page-footer__item:active {
+.page-footer__social-item:active {
   background-color: #5496bd; }
 
 .page-footer__wrapper {
@@ -367,12 +367,10 @@ body {
   line-height: 16px;
   height: 15px;
   color: #000000;
-  margin: 0;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
   margin-top: 41px; }
 
-.page-footer__item:last-child {
+.page-footer__social-item:last-child {
   margin-right: auto; }
 
 .page-footer__copyright {
@@ -418,7 +416,8 @@ body {
   height: 34px;
   background: url("../img/logo-htmlacademy.svg");
   background-color: white;
-  margin-left: 11px; }
+  margin-left: 11px;
+  font-size: 0; }
 
 .page-footer__icon {
   width: 27px;
@@ -441,11 +440,11 @@ body {
   margin-top: 14px;
   margin-left: 20px; }
 
-.page-footer__link--YouTube svg {
+.page-footer__link--youTube svg {
   margin-top: 17px;
   margin-left: 13px; }
 
-.page-footer__item--facebook {
+.page-footer__social-item--facebook {
   margin-left: 6px;
   margin-right: 6px; }
 
@@ -783,8 +782,7 @@ body {
   width: 273px;
   margin-top: 26px;
   margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 39px; }
+  margin-right: auto; }
 
 .benefits__heading {
   font-size: 18px;
@@ -1043,7 +1041,7 @@ body {
 .modal__button:active {
   background-color: #5496bd; }
 
-.modal__Interested {
+.modal__interested {
   width: 320px;
   max-width: 1200px;
   margin-left: auto;
@@ -1056,7 +1054,7 @@ body {
   display: none; }
 
 @media (min-width: 768px) {
-  .modal__Interested {
+  .modal__interested {
     width: 100%; }
   .modal__text {
     width: 435px; }
