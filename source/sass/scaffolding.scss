@@ -17,3 +17,10 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+div,
+h2,
+fieldset {
+  margin: 0;
+  border: 0;
+}
