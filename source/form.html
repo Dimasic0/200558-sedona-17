@@ -45,15 +45,15 @@
       <img src="img/text-sedona.svg" class="main-banner__picture-text" alt="Седона">
     </article>
     <section class="request">
-      <fieldset class="request__wrapper">
+      <div class="request__wrapper">
         <h2 class="request__heading">Оставьте свой отзыв</h2>
         <p class="request__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-      </fieldset>
+      </div>
     </section>
     <form action="#" method="post">
       <section class="initials">
         <fieldset class="initials__wrapper">
-          <h2 class="initials__heading">Представьтесь</h2>
+          <legend class="initials__heading">Представьтесь</legend>
           <div>
             <label for="name" class="initials__text initials__text--name">ИМЯ*:</label>
             <input type="text" id="name" class="initials__water-field initials__water-field--name" name="name" value="Петр">
@@ -70,21 +70,19 @@
       </section>
       <section class="contacts">
         <fieldset class="contacts__wrapper">
-          <h2 class="contacts__heading">Контактная информация:</h2>
+          <legend class="contacts__heading">Контактная информация:</legend>
           <div>
             <label for="phone" class="contacts__text contacts__text--phone">Контактный телефон*:</label>
             <input type="tel" id="phone" name="phone" class="contacts__water-field" value="Введите телефон">
-            <button class="contacts__button contacts__button--phone"></button>
           </div>
           <div>
             <label for="mail" class="contacts__text contacts__text--mail">Электронная почта*:</label>
             <input type="email" id="mail" name="mail" class="contacts__water-field" value="Введите e-mail">
-            <button class="contacts__button contacts__button--mail"></button>
           </div>
         </fieldset>
       </section>
       <section class="impression">
-        <h2 class="impression__heading">Ваше Общее впечатление:</h2>
+        <legend class="impression__heading">Ваше Общее впечатление:</legend>
         <div>
           <input type="radio" name="impression" id="success" class="impression__switch impression__switch--success" value="success" checked>
           <label for="success" class="impression__circle impression__circle--success"></label>
@@ -103,7 +101,7 @@
       </section>
       <section class="attractions">
         <fieldset class="attractions__wrapper">
-          <h2 class="attractions__heading">Посещенные достопримечательности:</h2>
+          <legend class="attractions__heading">Посещенные достопримечательности:</legend>
           <div class="attractions__block">
             <input type="checkbox" id="bridge" name="attractions" value="bridge" class="attractions__checkbox">
             <label for="bridge" class="attractions__square"></label>
@@ -134,13 +132,13 @@
           </div>
         </fieldset>
       </section>
-      <section class="emotions">
-        <fieldset class="emotions__wrapper">
-          <h2 class="emotions__heading">Опишите свои эмоции:</h2>
+      <fieldset class="emotions">
+         <legend class="emotions__heading">Опишите свои эмоции:</legend>
+        <div class="emotions__wrapper">
           <textarea class="emotions__text-field">Опишите подробно все свои восторги</textarea>
           <button class="emotions__button">отправить отзыв</button>
-        </fieldset>
-      </section>
+        </div>
+      </fieldset>
     </form>
   </main>
   <!--FOOTER-->
