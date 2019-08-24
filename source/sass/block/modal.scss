@@ -1,4 +1,7 @@
 .modal__headline {
+  @include font(18px, 700, #ffffff, center);
+  text-transform: uppercase;
+  margin-bottom: 0;
   font-size: 21px;
   text-align: center;
   line-height: 15px;
@@ -8,7 +11,8 @@
 }
 
 .modal__text {
-  width: 296px;
+  @include font(14px, 400, #ffffff, center);
+  width: 262px;
   text-align: center;
   margin-top: 22px;
   margin-left: auto;
@@ -44,11 +48,30 @@
   background-color: #5496bd;
 }
 
-.modal__Interested {
+.modal__interested {
   width: 320px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 33px;
   padding-bottom: 49px;
   background-color: #ffffff;
+}
+
+.modal__new-line {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .modal__interested {
+    width: 100%;
+  }
+
+  .modal__text {
+    width: 435px;
+  }
+
+  .modal__new-line {
+    display: block;
+  }
 }

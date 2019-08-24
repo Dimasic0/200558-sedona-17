@@ -4,21 +4,12 @@
   margin: 0;
 }
 
-.benefits__headline,
-.modal__headline {
-  margin-top: 27px;
-
+.benefits__headline {
   @include font(18px, 700, #ffffff, center);
   text-transform: uppercase;
-  margin-bottom: 0;
-  line-height: 12px;
-  height: 14px;
-}
-
-.benefits__headline,
-.benefits__head {
   margin-top: 59px;
-  color: #ffffff;
+  margin-bottom: 0;
+  line-height: 19px;
 }
 
 .benefits__number {
@@ -34,24 +25,11 @@
 }
 
 .benefits__text,
-.modal__text,
 .benefits__room,
 .benefits__proposal {
-  margin-top: 21px;
-
   @include font(14px, 400, #ffffff, center);
   line-height: 21px;
   text-transform: uppercase;
-  margin-bottom: 26px;
-}
-
-.benefits__wrapper {
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
-  display: flex;
-  flex-direction: column;
-  padding: 0;
 }
 
 .benefits__reasons {
@@ -63,11 +41,13 @@
   width: 320px;
   height: 260px;
   background: url("../img/city_1x.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 .benefits__reasons--details {
   background: #eeeeee;
-  width: 320px;
+  width: 280px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -78,11 +58,6 @@
   margin-left: auto;
   margin-right: auto;
   background-color: #eeeeee;
-}
-
-.benefits__reasons--line {
-  border-top: 1px solid #d6d6d6;
-  border-bottom: 1px solid #d6d6d6;
 }
 
 .benefits__headline--details {
@@ -96,19 +71,16 @@
 
 .benefits__text {
   width: 273px;
+  margin-top: 26px;
   margin-left: auto;
   margin-right: auto;
 }
 
-.benefits__heading,
-.photo__headline {
+.benefits__heading {
   @include font(18px, 700, #000000, left);
   text-transform: uppercase;
   margin-bottom: 0;
   margin-top: 10px;
-}
-
-.benefits__heading {
   font-family: "Myriad Pro", "Arial", sans-serif;
 }
 
@@ -128,7 +100,8 @@
   }
 }
 
-.benefits__reasons--position {
+.benefits__reasons--position,
+.benefits__reasons--disposition {
   padding-top: 22px;
   display: flex;
   width: 320px;
@@ -156,40 +129,34 @@
   }
 }
 
-.offers__icon {
-  &--proptions-housing {
-    width: 39px;
-    height: 37px;
-  }
-
-  &--proptions {
-    width: 32px;
-    height: 38px;
-  }
-}
 
 .benefits__reasons-icon--specialty-housing,
 .benefits__reasons-icon--specialty-souvenirs,
 .benefits__reasons-icon--specialty-food {
-  margin-right: 30px;
+  margin-right: 13px;
+  margin-left: 21px;
 }
 
 .benefits__head {
   margin-left: auto;
   margin-right: auto;
-  width: 214px;
-  margin-top: 39px;
+  width: 143px;
   font-family: "Myriad Pro", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  text-align: center;
   color: #ffffff;
 }
 
 .benefits__room {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 14px;
+  line-height: 10px;
   font-family: "Arial", sans-serif;
+  margin-bottom: 26px;
 }
 
 .benefits__proposal {
@@ -197,13 +164,14 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 16px;
   font-family: "Myriad Pro", "Arial", sans-serif;
+  margin-bottom: 0;
 }
 
 .benefits__reasons-sentence {
   width: 320px;
-  height: 191px;
+  padding-top: 45px;
+  padding-bottom: 39px;
   background-color: #81b3d2;
 }
 
@@ -211,4 +179,141 @@
   width: 320px;
   height: 260px;
   background: url("../img/hill_1x.png");
+}
+
+.benefits__wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+  background-color: #eeeeee;
+  max-width: 1200px;
+}
+
+.benefits__wrap {
+  max-width: 1200px;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.benefits__icon--proptions {
+  width: 40px;
+  height: 35px;
+}
+
+.benefits__reasons--details:nth-child(1),
+.benefits__reasons--details:nth-child(2) {
+  border-bottom: 1px solid #d6d6d6;
+}
+
+@media (min-width: 768px) {
+  .benefits__wrapper {
+    flex-direction: row;
+    width: 100%;
+    background-color: #ffffff;
+
+    &--details {
+      background-color: #eeeeee;
+    }
+  }
+
+  .benefits__wrap {
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+  }
+
+  .benefits__reasons-painting {
+    width: 67%;
+    height: 251px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  }
+
+  .benefits__reasons-sentence {
+    width: 33%;
+    height: 206px;
+    padding-bottom: 0;
+  }
+
+  .benefits__picture {
+    width: 67%;
+  }
+
+  .benefits__reasons {
+    width: 33%;
+    flex-direction: column;
+  }
+
+  .benefits__reasons-icon {
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .benefits__icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72px;
+    height: 72px;
+  }
+
+  .benefits__heading,
+  .benefits__sentence {
+    text-align: center;
+  }
+
+  .benefits__sentence--last {
+    margin-left: auto;
+    margin-right: auto;
+    width: 176px;
+  }
+
+  .benefits__heading {
+    font-size: 21px;
+  }
+
+  .benefits__sentence {
+    width: 177px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits__reasons--disposition {
+    order: 1;
+  }
+
+  .benefits__sentence--souvenirs {
+    width: 180px;
+  }
+
+  .benefits__headline {
+    font-size: 21px;
+    line-height: 26px;
+    width: 121px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .benefits__head {
+    font-size: 21px;
+    text-align: center;
+    width: 167px;
+  }
+
+  .benefits__proposal {
+    width: 175px;
+  }
+
+  .benefits__reasons--details:nth-child(1),
+  .benefits__reasons--details:nth-child(2) {
+    border-bottom: 0;
+  }
+
+  .benefits__text {
+    width: 171px;
+  }
 }

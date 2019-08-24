@@ -3,16 +3,18 @@
   padding-bottom: 27px;
   background-color: #ffffff;
   width: 320px;
+  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .information-city__headline {
   line-height: 26px;
+  width: 255px;
+  margin: 0 auto;
 
   @include font(18px, 700, #000000, center);
   text-transform: uppercase;
-  margin: 0;
 }
 
 .information-city__text,
@@ -20,10 +22,18 @@
   @include font(14px, 400, #333333, center);
   line-height: 26px;
   text-transform: uppercase;
-}
-
-.information-city__text {
   margin-top: 26px;
   margin-bottom: 0;
   height: 46px;
+}
+
+@media (min-width: 768px) {
+  .information-city__wrapper {
+    width: 100%;
+  }
+
+  .information-city__headline {
+    font-size: 21px;
+    width: 429px;
+  }
 }
