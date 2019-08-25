@@ -14,7 +14,7 @@
   border: 0;
   background-size: 100% 100%;
   padding: 0;
-  font-size:0;
+  font-size: 0;
 
   &--anew {
     width: 16px;
@@ -85,15 +85,15 @@
   .video__cover {
     margin-top: 0;
     top: 0px;
-    margin-left:39px;
+    margin-left: 39px;
     width: 389px;
-    height:100%;
+    height: 100%;
     display: inline-block;
-    background-color:rgba(255,255,255,0);
+    background-color: rgba(255, 255, 255, 0);
   }
-  .video__line
-  {
-    margin-top:23px;
+
+  .video__line {
+    margin-top: 23px;
     margin-left: 0px;
     width: 100%;
   }
@@ -113,73 +113,65 @@
 
   .video__options {
     width: 648px;
-    background-color:rgba(0,0,0,0.6);
-    margin-top:0;
+    background-color: rgba(0, 0, 0, 0.6);
+    margin-top: 0;
     position: relative;
-    top:-66px;
+    top: -66px;
   }
 
-  .video__roller
-  {
-    top:29px;
-    left:113px;
+  .video__roller {
+    top: 29px;
+    left: 113px;
   }
 
-  .video__button
-  {
-    &--anew
-    {
-      top:-23px;
-      margin-left:42px;
+  .video__button {
+    &--anew {
+      top: -23px;
+      margin-left: 42px;
     }
-    &--cc
-    {
-      top:-23px;
-      left:38px;
+
+    &--cc {
+      top: -23px;
+      left: 38px;
     }
-    &--enlarge-screen
-    {
-      top:-23px;
-      left:65px;
+
+    &--enlarge-screen {
+      top: -23px;
+      left: 65px;
     }
   }
 }
 
 @media(min-width:1200px) {
-  .video__picture
-  {
-    width:800px;
-    height:500px;
-  }
-  .video__options
-  {
-    width:800px;
+  .video__picture {
+    width: 800px;
+    height: 500px;
   }
 
-  .video__button
-  {
-    &--anew
-    {
-      margin-left:35px;
+  .video__options {
+    width: 800px;
+  }
+
+  .video__button {
+    &--anew {
+      margin-left: 35px;
     }
-    &--cc
-    {
-    left:38px
+
+    &--cc {
+      left: 38px
     }
-    &--enlarge-screen
-    {
-      left:65px;
+
+    &--enlarge-screen {
+      left: 65px;
     }
   }
 
-  .video__cover
-  {
-    margin-left:40px;
-    width:540px;
+  .video__cover {
+    margin-left: 40px;
+    width: 540px;
   }
 
-  .video__roller
-  {
-    left:113px;
+  .video__roller {
+    left: 113px;
   }
 }
