@@ -30,7 +30,6 @@
         </li>
         <li class="main-nav__item main-nav__item--logo">
           <a href="index.html" class="main-nav__link main-nav__link--logo">
-            <img src="img/logo-sedona-mobile.svg" class="main-nav__picture" alt="Город Седона">
           </a>
           <button class="main-nav__button">
             <span class="visually-hidden">Меню</span>
@@ -47,22 +46,22 @@
     <section class="request">
       <div class="request__wrapper">
         <h2 class="request__heading">Оставьте свой отзыв</h2>
-        <p class="request__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <p class="request__text">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
       </div>
     </section>
-    <form action="#" method="post">
+    <form action="#" method="post" class="feedback">
       <section class="initials">
         <fieldset class="initials__wrapper">
-          <legend class="initials__heading">Представьтесь</legend>
-          <div>
+          <legend class="initials__heading">представьтесь</legend>
+          <div class="initials__block">
             <label for="name" class="initials__text initials__text--name">ИМЯ*:</label>
             <input type="text" id="name" class="initials__water-field initials__water-field--name" name="name" value="Петр">
           </div>
-          <div>
+          <div class="initials__block">
             <label for="surname" class="initials__text initials__text--surname">ФАМИЛИЯ*:</label>
             <input type="text" id="surname" name="surname" class="initials__water-field initials__water-field--surname" value="Иванов">
           </div>
-          <div>
+          <div class="initials__block">
             <label for="patronymic" class="initials__text initials__text--patronymic">ОТЧЕСТВО:</label>
             <input type="text" id="patronymic" name="patronymic" class="initials__water-field initials__water-field--patronymic" value="Александрович">
           </div>
@@ -70,81 +69,83 @@
       </section>
       <section class="contacts">
         <fieldset class="contacts__wrapper">
-          <legend class="contacts__heading">Контактная информация:</legend>
-          <div>
+          <legend class="contacts__heading">контактная информация:</legend>
+          <div class="contacts__block">
             <label for="phone" class="contacts__text contacts__text--phone">Контактный телефон*:</label>
             <input type="tel" id="phone" name="phone" class="contacts__water-field" value="Введите телефон">
           </div>
-          <div>
+          <div class="contacts__block">
             <label for="mail" class="contacts__text contacts__text--mail">Электронная почта*:</label>
             <input type="email" id="mail" name="mail" class="contacts__water-field" value="Введите e-mail">
           </div>
         </fieldset>
       </section>
       <section class="impression">
-        <legend class="impression__heading">Ваше Общее впечатление:</legend>
-        <div>
+        <legend class="impression__heading">ваше общее впечатление:</legend>
+        <div class="impression__block impression__block--success">
           <input type="radio" name="impression" id="success" class="impression__switch impression__switch--success" value="success" checked>
           <label for="success" class="impression__circle impression__circle--success"></label>
-          <label for="success" class="impression__text impression__text--success">Скорее положительное</label>
+          <label for="success" class="impression__text impression__text--success">cкорее положительное</label>
         </div>
-        <div>
+        <div class="impression__block impression__block--failure">
           <input type="radio" name="impression" id="failure" value="failure" class="impression__switch impression__switch--failure">
           <label for="failure" class="impression__circle impression__circle--failure"></label>
-          <label for="failure" class="impression__text impression__text--failure">Скорее отрицательное</label>
+          <label for="failure" class="impression__text impression__text--failure">cкорее отрицательное</label>
         </div>
-        <div>
+        <div class="impression__block impression__block--difficulty">
           <input type="radio" name="impression" id="difficulty" value="difficulty" class="impression__switch impression__switch--difficulty">
           <label for="difficulty" class="impression__circle impression__circle--difficulty"></label>
-          <label for="difficulty" class="impression__text impression__text--difficulty">Затрудняюсь ответить</label>
+          <label for="difficulty" class="impression__text impression__text--difficulty">pатрудняюсь ответить</label>
         </div>
       </section>
       <section class="attractions">
         <fieldset class="attractions__wrapper">
-          <legend class="attractions__heading">Посещенные достопримечательности:</legend>
-          <div class="attractions__block">
-            <input type="checkbox" id="bridge" name="attractions" value="bridge" class="attractions__checkbox">
-            <label for="bridge" class="attractions__square"></label>
-            <label for="bridge" class="attractions__text">
-              Мост Дьявола
-            </label>
-          </div>
-          <div class="attractions__block">
-            <input type="checkbox" id="mountain" name="attractions" value="mountain" class="attractions__checkbox">
-            <label for="mountain" class="attractions__square"></label>
-            <label for="mountain" class="attractions__text">
-              Гора-Колокол
-            </label>
-          </div>
-          <div class="attractions__block">
-            <input type="checkbox" id="park" name="attractions" value="park" class="attractions__checkbox">
-            <label for="park" class="attractions__square"></label>
-            <label for="park" class="attractions__text">
-              Слайд-парк
-            </label>
-          </div>
-          <div class="attractions__block">
-            <input type="checkbox" id="rocks" name="attractions" value="rocks" class="attractions__checkbox">
-            <label for="rocks" class="attractions__square"></label>
-            <label for="rocks" class="attractions__text">
-              Красные скалы
-            </label>
+          <legend class="attractions__heading">посещенные достопримечательности:</legend>
+          <div class="attractions__row">
+            <div class="attractions__block">
+              <input type="checkbox" id="bridge" name="attractions" value="bridge" class="attractions__checkbox">
+              <label for="bridge" class="attractions__square"></label>
+              <label for="bridge" class="attractions__text">
+                Мост Дьявола
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="mountain" name="attractions" value="mountain" class="attractions__checkbox">
+              <label for="mountain" class="attractions__square"></label>
+              <label for="mountain" class="attractions__text">
+                Гора-Колокол
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="park" name="attractions" value="park" class="attractions__checkbox">
+              <label for="park" class="attractions__square"></label>
+              <label for="park" class="attractions__text">
+                Слайд-парк
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="rocks" name="attractions" value="rocks" class="attractions__checkbox">
+              <label for="rocks" class="attractions__square"></label>
+              <label for="rocks" class="attractions__text">
+                Красные скалы
+              </label>
+            </div>
           </div>
         </fieldset>
       </section>
-      <fieldset class="emotions">
-        <legend class="emotions__heading">Опишите свои эмоции:</legend>
-        <div class="emotions__wrapper">
+      <section class="emotions">
+        <fieldset class="emotions__wrapper">
+          <legend class="emotions__heading">опишите свои эмоции:</legend>
           <textarea class="emotions__text-field">Опишите подробно все свои восторги</textarea>
-          <button class="emotions__button">отправить отзыв</button>
-        </div>
-      </fieldset>
+          <input type="submit" class="emotions__button" value="отправить отзыв">
+        </fieldset>
+      </section>
     </form>
   </main>
   <!--FOOTER-->
   <footer class="page-footer">
     <div class="page-footer__wrapper">
-      <p class="page-footer__text">#Visitsedona</p>
+      <p class="page-footer__text">#visitsedona</p>
       <ul class="page-footer__social">
         <li class="page-footer__social-item">
           <a href="https://twitter.com/" class="page-footer__link page-footer__link--twitter">
@@ -190,7 +191,7 @@
         </li>
       </ul>
       <div class="page-footer__copyright">
-        <p class="page-footer__sentence">Разработано</p>
+        <p class="page-footer__sentence">разработано</p>
         <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link page-footer__link--htmlacademy">
           htmlacademy
         </a>

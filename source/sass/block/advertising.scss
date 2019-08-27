@@ -1,0 +1,44 @@
+.advertising__wrapper {
+  width: 320px;
+  margin: 0px auto;
+  background-color: #ffffff;
+  padding-top: 39px;
+  padding-bottom: 35px;
+}
+
+.advertising__headline {
+  font-family: MyriadPro;
+  font-size: 18px;
+  line-height: 12px;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.advertising__text {
+  display: block;
+  font-family: MyriadPro;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+  color: #333333;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 33px;
+}
+
+@media (min-width: 768px) {
+  .advertising__wrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .advertising__headline {
+    font-size: 30px;
+  }
+
+  .advertising__text {
+    width: 338px;
+  }
+}

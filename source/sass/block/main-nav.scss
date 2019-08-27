@@ -13,10 +13,6 @@
   margin-right: auto;
 }
 
-.main-nav__link--logo {
-  margin-left: 109px;
-}
-
 .main-nav__item {
   display: block;
   padding: 20px 0 18px 0;
@@ -51,6 +47,14 @@
   @include font(18px, 700, #ffffff, center);
   text-decoration: none;
   width: auto;
+}
+
+
+.main-nav__link--logo {
+  margin-left: 109px;
+  width: 102px;
+  height: 83px;
+  background-image: url("../../img/logo-sedona-mobile.svg");
 }
 
 .main-nav__item:active .main-nav__link {
@@ -105,10 +109,6 @@
 @media (min-width: 768px) {
   .main-nav__button {
     display: none;
-  }
-
-  .main-nav__picture {
-    margin-left: 0;
   }
 
   .main-nav__link {
@@ -176,5 +176,11 @@
     width: 1200px;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  .main-nav__link--logo {
+    width: 188px;
+    height: 96px;
+    background-image: url("../../img/logo-sedona-desktop.svg");
   }
 }
