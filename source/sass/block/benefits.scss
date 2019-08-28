@@ -35,6 +35,9 @@
 .benefits__reasons {
   width: 320px;
   background-color: #81b3d2;
+  background-image:url("../../img/white_copy.png");
+  background-position: 0 0;
+  background-size: 100% 100%;
 }
 
 .benefits__picture {
@@ -67,6 +70,7 @@
 
 .benefits__text--details {
   color: #333333;
+  width: 121px;
 }
 
 .benefits__text {
@@ -315,5 +319,10 @@
 
   .benefits__text {
     width: 171px;
+  }
+
+  .benefits__text--details {
+    color: #333333;
+    width: 158px;
   }
 }

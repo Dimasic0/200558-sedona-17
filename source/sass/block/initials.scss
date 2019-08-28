@@ -1,0 +1,88 @@
+.initials {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.initials__heading {
+  font-family: Myriad Pro;
+  font-size: 18px;
+  font-weight:700;
+  line-height: 12px;
+  height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.initials__text {
+  display: inline-block;
+  font-size:14px;
+  font-weight:100;
+  color:#333333;
+}
+
+.initials__block
+{
+  width:285px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.initials__water-field {
+  display: inline-block;
+  margin-left: 10px;
+  background-color: #f2f2f2;
+  font-family: PTSans;
+  font-size: 18px;
+  line-height: 10px;
+  font-weight: bold;
+  line-height: 16px;
+  padding-top: 22px;
+  padding-left: 22px;
+  padding-bottom: 19px;
+}
+
+.initials__water-field--name {
+  width: 208px;
+  height: 18px;
+}
+
+.initials__water-field--surname {
+  width: 171px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.initials__water-field--patronymic {
+  width: 175px;
+}
+
+.initials
+{
+  border-top:0;
+}
+
+@media (min-width:768px) {
+
+  .initials {
+    display: inline-block;
+    width: 50%;
+    margin-left: 0;
+    padding-top:14px;
+    padding:0;
+  }
+
+  .initials__text {
+    margin-left: 0;
+  }
+
+  .initials__block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
