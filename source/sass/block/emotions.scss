@@ -36,12 +36,12 @@
   margin: 21px auto;
   box-sizing: border-box;
   padding-top: 16px;
-  padding-left:20px;
+  padding-left: 20px;
   background-color: #f2f2f2;
 }
 
 .emotions__button {
-  display:block;
+  display: block;
   font-family: PTSans;
   font-size: 21px;
   font-weight: bold;
@@ -51,17 +51,17 @@
   height: 15px;
   color: #ffffff;
   margin-top: 51px;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
   background-color: #81b3d2;
   padding: 21px 48px 21px 47px;
-  border:0;
+  border: 0;
 }
 
 @media(min-width:768px) {
   .emotions__wrapper {
     margin: 0;
-    width:100%;
+    width: 100%;
     border-top: 1px solid #e5e5e5;
   }
 
@@ -78,17 +78,17 @@
   .emotions__button
   {
     box-sizing: border-box;
-    width:42%;
-    height:61px;
+    width: 42%;
+    height: 61px;
     line-height: 16px;
     text-align: center;
     padding-top: 21px;
-    margin-left:8%;
+    margin-left: 8%;
   }
 
   .emotions__text-field
   {
-    width:84%;
-    margin-left:8%;
+    width: 84%;
+    margin-left: 8%;
   }
 }
