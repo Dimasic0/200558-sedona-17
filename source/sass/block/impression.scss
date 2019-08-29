@@ -1,6 +1,7 @@
 .impression {
   display: block;
   width: 320px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
@@ -33,18 +34,6 @@
   margin-right: auto;
 }
 
-.impression__text {
-  display: inline-block;
-  font-family: PTSans;
-  font-size: 18px;
-  font-weight: bold;
-  position: relative;
-  top: -23px;
-  left: 14px;
-  line-height: 12px;
-  height: 15px;
-}
-
 .impression__heading {
   font-family: PTSans;
   font-size: 18px;
@@ -74,23 +63,35 @@
   }
 }
 
+.impression__line {
+  display: inline-block;
+  font-family: PTSans;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: -23px;
+  left: 14px;
+  line-height: 12px;
+}
+
 @media(min-width:768px) {
   .impression {
     width: 50%;
     order: -1;
     display: inline-block;
-    margin-left: 0px;
+    margin-left: 0;
+    margin-right: 0;
     border: 0;
-    padding-top:14px;
-    padding-bottom:0;
+    margin-left:auto;
+    padding-top: 14px;
+    padding-bottom: 0;
   }
 
   .impression__circle {
     margin-left: 0;
   }
 
-  .impression__block--success
-  {
-     margin-top:62px;
+  .impression__block--success {
+    margin-top: 62px;
   }
 }

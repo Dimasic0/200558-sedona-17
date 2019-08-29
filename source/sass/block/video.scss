@@ -15,18 +15,18 @@
   background-position: 0 0;
   padding: 0;
   font-size: 0;
-
+  background-color:rgba(255,255,255,0);
   &--anew {
     width: 16px;
     height: 20px;
-    background-image: url("../../img/replay.svg");
+    background-image: url("../img/replay.png");
     margin-left: 25px;
   }
 
   &--cc {
     width: 32px;
     height: 20px;
-    background-image: url("../../img/button_cc.svg");
+    background-image: url("../img/сс.png");
     margin-left: 133px;
   }
 
@@ -34,6 +34,7 @@
     width: 20px;
     height: 20px;
     margin-left: 31px;
+    background-image: url("../img/fullscreen.png");
   }
 }
 

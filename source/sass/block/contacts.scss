@@ -1,8 +1,10 @@
 .contacts {
+  width:100%;
   background-color: rgb(255, 255, 255);
   padding: 24px 0px 25px 0;
   border-top:1px solid #e5e5e5;
-
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contacts__wrapper {
@@ -38,11 +40,12 @@
     margin-top: 20px;
   }
 }
-
-.contacts {
-  width: 320px;
-  margin-left: auto;
-  margin-right: auto;
+.contacts__water-field
+{
+  background-image:url("../img/phone.png");
+  background-repeat:no-repeat;
+  background-size:58px 58px;
+  background-position: 100% 0;
 }
 
 .contacts__heading {
@@ -60,17 +63,6 @@
   margin-left: auto;
   margin-right: auto;
   position: relative;
-}
-.contacts__button
-{
-  font-size:0;
-  padding: 0;
-  border: 0;
-  width:58px;
-  height:58px;
-  position: absolute;
-  top:27px;
-  left:79%;
 }
 @media(min-width:768px) {
   .contacts__wrapper {

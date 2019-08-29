@@ -1,6 +1,5 @@
 .attractions {
   background-color: white;
-  width: 320px;
   margin: 0px auto;
   padding-top: 17px;
   padding-bottom: 21px;
@@ -33,8 +32,8 @@
   display: block;
   width: 23px;
   height: 14px;
-  border-left: 1px solid #231f20;
-  border-bottom: 1px solid #231f20;
+  border-left: 3px solid #231f20;
+  border-bottom: 3px solid #231f20;
   transform: rotatez(-50deg);
   margin-left: 18px;
   margin-top: 17px;
@@ -44,7 +43,7 @@
   display: none;
 }
 
-.attractions__text {
+.attractions__line {
   display: inline-block;
   font-size: 18px;
   font-weight: 600;
@@ -80,12 +79,11 @@
   .attractions {
     width: 100%;
     max-width: 1200px;
-    border:0;
+    border: 0;
   }
 
-  .attractions__wrapper
-  {
-   border-top:1px solid #dbdbdb;
+  .attractions__wrapper {
+    border-top: 1px solid #dbdbdb;
   }
 
   .attractions__square {
@@ -125,8 +123,8 @@
   .attractions__row {
     width: 960px;
   }
-  .attractions__block
-  {
-    width:199px;
+
+  .attractions__block {
+    width: 199px;
   }
 }
