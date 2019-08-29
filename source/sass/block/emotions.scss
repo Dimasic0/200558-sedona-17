@@ -25,7 +25,7 @@
 }
 
 .emotions__text-field {
-  font-family: PTSans;
+  font-family: "PTSans";
   font-size: 18px;
   font-weight: 700;
   line-height: 26px;
@@ -42,7 +42,7 @@
 
 .emotions__button {
   display: block;
-  font-family: PTSans;
+  font-family: "PTSans";
   font-size: 21px;
   font-weight: bold;
   text-transform: uppercase;
@@ -58,7 +58,7 @@
   border: 0;
 }
 
-@media(min-width:768px) {
+@media(min-width: 768px) {
   .emotions__wrapper {
     margin: 0;
     width: 100%;
