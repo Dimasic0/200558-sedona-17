@@ -1,8 +1,8 @@
 .contacts {
-  width:100%;
+  width: 100%;
   background-color: rgb(255, 255, 255);
   padding: 24px 0 25px 0;
-  border-top:1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
   margin-left: auto;
   margin-right: auto;
 }
@@ -32,6 +32,7 @@
   line-height: 14px;
   height: 13px;
   text-transform: uppercase;
+
   &--phone {
     margin-top: 29px;
   }
@@ -40,11 +41,11 @@
     margin-top: 20px;
   }
 }
-.contacts__water-field
-{
+
+.contacts__water-field {
   background-image: url("../img/phone.png");
   background-repeat: no-repeat;
-  background-size:58px 58px;
+  background-size: 58px 58px;
   background-position: 100% 0;
 }
 
@@ -64,6 +65,7 @@
   margin-right: auto;
   position: relative;
 }
+
 @media(min-width:768px) {
   .contacts__wrapper {
     width: 100%;
@@ -77,18 +79,17 @@
     padding-top: 75px;
   }
 
-  .contacts__wrapper
-  {
+  .contacts__wrapper {
     border-top: 1px solid #dbdbdb;
   }
 
   .contacts__text {
-  &--phone {
-    margin-top: 32px;
-  }
+    &--phone {
+      margin-top: 32px;
+    }
 
-  &--mail {
-    margin-top: 31px;
+    &--mail {
+      margin-top: 31px;
+    }
   }
-}
 }
