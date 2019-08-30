@@ -27,32 +27,26 @@
   margin: 0;
 }
 
-.photo__headline,
-.photo__info {
-  display: block;
-  font-size: 14px;
-  margin-top: 22px;
-  line-height: 13px;
-  margin-left: 19px;
-}
-
 .photo__headline {
+  font-size: 14px;
   font-weight: 700;
   color: #000000;
   text-align: left;
   text-transform: uppercase;
   margin-bottom: 0;
-  margin-top: 10px;
+  margin-top: 22px;
+  margin-left: 20px;
 }
 
 .photo__info {
   font-weight: 400;
-  margin-top: 11px;
+  margin-top: 12x;
   line-height: 10px;
   color: #333333;
   height: 13px;
   text-align: left;
   text-transform: capitalize;
+  margin-left: 22px;
 }
 
 .photo__button {
@@ -61,29 +55,24 @@
   height: 21px;
   padding: 0;
   background-color: rgba(255, 255, 255, 0);
-  background-image: url("../img/like.png");
+  background-image: url("../img/gray-like.png");
   background-size: 100% 100%;
   border: 0;
   margin-top: 7px;
-  margin-left: 19px;
+  margin-left: 22px;
   margin-bottom: 21px;
   position: relative;
-}
-
-.photo__button-img {
-  width: 100%;
-  height: 100%;
 }
 
 .photo__likes {
   display: inline-block;
   position: relative;
-  margin-top: 2px;
   margin-left: 10px;
-
   @include font(14px, 700, #000000, left);
   line-height: 12px;
   height: 11px;
+  position: relative;
+  top:-2px;
 }
 
 .photo__link {
@@ -152,11 +141,10 @@
 
   .photo__button {
     margin-top: 28px;
-    margin-left: 0;
+    margin-left: -18px;
   }
 
   .photo__likes {
-    margin-left: 10px;
     margin-top: 0;
   }
 
@@ -265,5 +253,9 @@
   .photo__info,
   .photo__likes {
     color: #ffffff;
+  }
+
+  .photo__button {
+    background-image: url("../img/white-like.png");
   }
 }
