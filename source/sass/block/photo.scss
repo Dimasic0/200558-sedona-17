@@ -20,9 +20,8 @@
   }
 }
 
-.photo__please
-{
-  margin-top:-16px;
+.photo__please {
+  margin-top: -16px;
 }
 
 .photo__picture {
@@ -51,7 +50,7 @@
   height: 13px;
   text-align: left;
   text-transform: capitalize;
-  height:14px;
+  height: 14px;
   margin-left: 22px;
 }
 
@@ -72,13 +71,12 @@
 
 .photo__likes {
   display: inline-block;
-  position: relative;
   margin-left: 10px;
   @include font(14px, 700, #000000, left);
   line-height: 12px;
   height: 11px;
   position: relative;
-  top:-2px;
+  top: -2px;
 }
 
 .photo__link {
@@ -217,7 +215,7 @@
 
   .photo__row {
     margin-top: -80px;
-    height:80px;
+    height: 80px;
   }
 
   .photo__row .photo__data,
@@ -266,8 +264,7 @@
     background-image: url("../img/white-like.png");
   }
 
-  .photo__button
-  {
-    margin-left:0;
+  .photo__button {
+    margin-left: 0;
   }
 }
