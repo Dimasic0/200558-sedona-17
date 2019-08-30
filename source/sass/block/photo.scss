@@ -47,7 +47,6 @@
   margin-top: 12px;
   line-height: 10px;
   color: #333333;
-  height: 13px;
   text-align: left;
   text-transform: capitalize;
   height: 14px;
@@ -73,6 +72,7 @@
   display: inline-block;
   margin-left: 10px;
   @include font(14px, 700, #000000, left);
+
   line-height: 12px;
   height: 11px;
   position: relative;
@@ -262,9 +262,6 @@
 
   .photo__button {
     background-image: url("../img/white-like.png");
-  }
-
-  .photo__button {
     margin-left: 0;
   }
 }
