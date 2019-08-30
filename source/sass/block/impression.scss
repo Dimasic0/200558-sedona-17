@@ -62,7 +62,6 @@
 
 .impression__line {
   display: inline-block;
-  font-family: "PTSans";
   font-size: 18px;
   font-weight: bold;
   position: relative;
@@ -71,7 +70,7 @@
   line-height: 12px;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   .impression {
     width: 50%;
     order: -1;
