@@ -88,6 +88,12 @@
 }
 
 @media (min-width: 768px) {
+
+  .photo__please {
+    height: 80px;
+    margin-top:0;
+  }
+
   .photo__data--details {
     box-sizing: border-box;
     width: 26%;
