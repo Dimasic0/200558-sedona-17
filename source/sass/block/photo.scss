@@ -71,6 +71,7 @@
 .photo__likes {
   display: inline-block;
   margin-left: 10px;
+
   @include font(14px, 700, #000000, left);
 
   line-height: 12px;
