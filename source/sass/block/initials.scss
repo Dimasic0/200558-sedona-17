@@ -10,7 +10,7 @@
 }
 
 .initials__heading {
-  font-family: "Myriad Pro";
+  font-family: "PTSans";
   font-size: 18px;
   font-weight: 700;
   line-height: 12px;
@@ -42,7 +42,6 @@
   font-size: 18px;
   line-height: 10px;
   font-weight: bold;
-  line-height: 16px;
   padding-top: 22px;
   padding-left: 22px;
   padding-bottom: 19px;
@@ -50,10 +49,6 @@
 
 .initials__water-field--name {
   height: 18px;
-}
-
-.initials {
-  border-top: 0;
 }
 
 @media (min-width: 768px) {
