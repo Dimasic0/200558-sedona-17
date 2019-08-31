@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+  <!-- HEADER -->
+  <div class="wrapper">
+  <header class="page-header">
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li class="main-nav__item main-nav__item--details">
+          <a href="index.html" class="main-nav__link main-nav__link--details">Главная</a>
+          <!--<button class="main-nav__button--details">
+            <img src="img/icon-cross.svg" alt="" class="page-header__painting">
+          </button>-->
+        </li>
+        <li class="main-nav__item">
+          <a href="photo.html" class="main-nav__link main-nav__link--location">Фото и видео</a>
+        </li>
+        <li class="main-nav__item">
+          <a class="main-nav__link main-nav__link--position">Форма отзыва</a>
+        </li>
+        <li class="main-nav__item">
+          <a href="https://htmlacademy.ru" class="main-nav__link main-nav__link--disposition">Html academy</a>
+        </li>
+        <li class="main-nav__item main-nav__item--logo">
+          <a href="index.html" class="main-nav__link main-nav__link--logo">
+          </a>
+          <button class="main-nav__button">
+            <span class="visually-hidden">Меню</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!-- MAIN -->
+  <main>
+    <article class="main-banner">
+      <img src="img/text-sedona.svg" class="main-banner__picture-text" alt="Седона">
+    </article>
+    <section class="request">
+      <div class="request__wrapper">
+        <h2 class="request__heading">Оставьте свой отзыв</h2>
+        <p class="request__text">помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+      </div>
+    </section>
+    <form action="#" method="post" class="feedback">
+      <section class="initials">
+        <fieldset class="initials__wrapper">
+          <legend class="initials__heading">представьтесь</legend>
+          <div class="initials__block">
+            <label for="name" class="initials__text initials__text--name">ИМЯ*:</label>
+            <input type="text" id="name" class="initials__water-field initials__water-field--name" name="name" value="Петр">
+          </div>
+          <div class="initials__block">
+            <label for="surname" class="initials__text initials__text--surname">ФАМИЛИЯ*:</label>
+            <input type="text" id="surname" name="surname" class="initials__water-field initials__water-field--surname" value="Иванов">
+          </div>
+          <div class="initials__block">
+            <label for="patronymic" class="initials__text initials__text--patronymic">ОТЧЕСТВО:</label>
+            <input type="text" id="patronymic" name="patronymic" class="initials__water-field initials__water-field--patronymic" value="Александрович">
+          </div>
+        </fieldset>
+      </section>
+      <section class="contacts">
+        <fieldset class="contacts__wrapper">
+          <legend class="contacts__heading">контактная информация:</legend>
+          <div class="contacts__block">
+            <label for="phone" class="contacts__text contacts__text--phone">Контактный телефон*:</label>
+            <input type="tel" id="phone" name="phone" class="contacts__water-field" value="Введите телефон">
+          </div>
+          <div class="contacts__block">
+            <label for="mail" class="contacts__text contacts__text--mail">Электронная почта*:</label>
+            <input type="email" id="mail" name="mail" class="contacts__water-field" value="Введите e-mail">
+          </div>
+        </fieldset>
+      </section>
+      <section class="impression">
+        <legend class="impression__heading">ваше общее впечатление:</legend>
+        <div class="impression__block impression__block--success">
+          <label class="impression__text impression__text--failure">
+            <input type="radio" name="impression" value="failure" class="impression__switch impression__switch--failure">
+            <div class="impression__circle impression__circle--failure">
+            </div>
+            <span class="impression__line">Cкорее отрицательное</span>
+          </label>
+        </div>
+        <div class="impression__block impression__block--failure">
+          <label class="impression__text impression__text--failure">
+            <input type="radio" name="impression" value="failure" class="impression__switch impression__switch--failure">
+            <div class="impression__circle impression__circle--failure">
+            </div>
+            <span class="impression__line">Cкорее отрицательное</span>
+          </label>
+        </div>
+        <div class="impression__block impression__block--difficulty">
+          <label class="impression__text impression__text--failure">
+            <input type="radio" name="impression" value="failure" class="impression__switch impression__switch--failure">
+            <div class="impression__circle impression__circle--failure">
+            </div>
+            <span class="impression__line">Cкорее отрицательное</span>
+          </label>
+        </div>
+      </section>
+      <section class="attractions">
+        <fieldset class="attractions__wrapper">
+          <legend class="attractions__heading">посещенные достопримечательности:</legend>
+          <div class="attractions__row">
+            <div class="attractions__block">
+              <input type="checkbox" id="bridge" name="attractions" value="bridge" class="attractions__checkbox">
+              <label for="bridge" class="attractions__square"></label>
+              <label for="bridge" class="attractions__text">
+                Мост Дьявола
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="mountain" name="attractions" value="mountain" class="attractions__checkbox">
+              <label for="mountain" class="attractions__square"></label>
+              <label for="mountain" class="attractions__text">
+                Гора-Колокол
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="park" name="attractions" value="park" class="attractions__checkbox">
+              <label for="park" class="attractions__square"></label>
+              <label for="park" class="attractions__text">
+                Слайд-парк
+              </label>
+            </div>
+            <div class="attractions__block">
+              <input type="checkbox" id="rocks" name="attractions" value="rocks" class="attractions__checkbox">
+              <label for="rocks" class="attractions__square"></label>
+              <label for="rocks" class="attractions__text">
+                Красные скалы
+              </label>
+            </div>
+          </div>
+        </fieldset>
+      </section>
+      <section class="emotions">
+        <fieldset class="emotions__wrapper">
+          <legend class="emotions__heading">опишите свои эмоции:</legend>
+          <textarea class="emotions__text-field">Опишите подробно все свои восторги</textarea>
+          <input type="submit" class="emotions__button" value="отправить отзыв">
+        </fieldset>
+      </section>
+    </form>
+  </main>
+  <!--FOOTER-->
+  <footer class="page-footer">
+    <div class="page-footer__wrapper">
+      <p class="page-footer__text">#visitsedona</p>
+      <ul class="page-footer__social">
+        <li class="page-footer__social-item">
+          <a href="https://twitter.com/" class="page-footer__link page-footer__link--twitter">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="15px">
+              <defs>
+                <filter id="twitter">
+                  <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                  <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                  <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                </filter>
+
+              </defs>
+              <g filter="url(#twitter)">
+                <path fill-rule="evenodd" fill="rgb(0, 0, 0)" d="M18.353,2.482 C17.698,2.768 16.994,2.961 16.255,3.047 C17.009,2.604 17.588,1.902 17.861,1.064 C17.155,1.475 16.373,1.773 15.541,1.934 C14.875,1.237 13.925,0.802 12.874,0.802 C10.857,0.802 9.220,2.407 9.220,4.387 C9.220,4.667 9.253,4.941 9.315,5.203 C6.279,5.054 3.587,3.627 1.784,1.459 C1.470,1.988 1.290,2.603 1.290,3.260 C1.290,4.504 1.935,5.602 2.915,6.244 C2.316,6.225 1.753,6.065 1.260,5.796 C1.260,5.811 1.260,5.825 1.260,5.840 C1.260,7.577 2.519,9.026 4.191,9.355 C3.884,9.437 3.561,9.481 3.228,9.481 C2.993,9.481 2.764,9.459 2.541,9.417 C3.006,10.841 4.355,11.878 5.954,11.907 C4.703,12.867 3.128,13.441 1.416,13.441 C1.121,13.441 0.830,13.424 0.545,13.391 C2.161,14.408 4.082,15.002 6.145,15.002 C12.866,15.002 16.541,9.540 16.541,4.802 C16.541,4.647 16.537,4.492 16.530,4.338 C17.244,3.833 17.863,3.201 18.353,2.482 Z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="page-footer__social-item  page-footer__social-item--facebook">
+          <a href="https://www.facebook.com/campaign/landing.php?campaign_id=298364580528938&extra_1=yandex_12337837700%7Cdesktop%7C1903759857%7C%7Cfacebook%7Cnone%7C8095dy448850&placement=none&creative=1903759857&keyword=facebook&partner_id=yandexsem&extra_2=search&adposition=premium_1" class="page-footer__link page-footer__link--facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="19px">
+              <defs>
+                <filter id="facebook">
+                  <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                  <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
+                  <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
+                </filter>
+
+              </defs>
+              <g filter="url(#facebook)">
+                <path fill-rule="evenodd" fill="rgb(184, 184, 184)" d="M5.544,18.518 L1.859,18.518 L1.859,9.610 L0.017,9.610 L0.017,6.538 L1.859,6.538 L1.859,4.696 C1.859,2.191 2.899,0.702 5.852,0.702 L8.312,0.702 L8.312,3.772 L6.775,3.772 C5.625,3.772 5.549,4.201 5.549,5.002 L5.544,6.538 L8.330,6.538 L8.004,9.610 L5.544,9.610 L5.544,18.518 Z" />
+              </g>
+            </svg>
+          </a>
+        </li>
+        <li class="page-footer__social-item">
+          <a href="https://www.youtube.com/" class="page-footer__link page-footer__link--youTube">
+            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
+              <image id="icon-youtube.svg" width="20" height="14" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAOCAYAAAAvxDzwAAAAfElEQVQ4jdXSwQ3CQAxE0Q+igJRACVtCWkglUAJUynaQdPCRUXJEawlfmJMP1juMjdrUl78njHaKAbhSkx6gRdgn50osAy7AE9jS4uAUczSiTupDXUeny4Jk4fIOL8m9CbgDt33+mtHbxFFaBjryH3/YC70eYPRUgXZgeQO9yv2EFT7UYgAAAABJRU5ErkJggg==" />
+            </svg>
+
+          </a>
+        </li>
+      </ul>
+      <div class="page-footer__copyright">
+        <p class="page-footer__sentence">разработано</p>
+        <a href="https://htmlacademy.ru/intensive/adaptive" class="page-footer__link page-footer__link--htmlacademy">
+          htmlacademy
+        </a>
+      </div>
+    </div>
+  </footer>
+  </div>
+</body>
+
+</html>
