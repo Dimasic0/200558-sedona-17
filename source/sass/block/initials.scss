@@ -1,0 +1,75 @@
+.initials {
+  width: 320px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-top: 1px solid #e5e5e5;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
+
+.initials__heading {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 12px;
+  height: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.initials__text {
+  font-size: 14px;
+  font-weight: 100;
+  color: #333333;
+}
+
+.initials__block {
+  width: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  flex-direction: row;
+}
+
+.initials__block--surname {
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.initials__water-field {
+  background-color: #f2f2f2;
+  font-size: 18px;
+  line-height: 10px;
+  font-weight: bold;
+  padding-top: 22px;
+  padding-left: 22px;
+  padding-bottom: 19px;
+  border: 0;
+}
+
+.initials__water-field--name {
+  height: 18px;
+}
+
+@media (min-width: 768px) {
+  .initials {
+    display: inline-block;
+    width: 50%;
+    margin-left: 0;
+    padding-top: 14px;
+    border: 0;
+  }
+
+  .initials__text {
+    margin-left: 0;
+  }
+
+  .initials__block {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

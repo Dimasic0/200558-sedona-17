@@ -35,6 +35,10 @@
 .benefits__reasons {
   width: 320px;
   background-color: #81b3d2;
+  background-image: url("../img/triangle.png");
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 37px;
 }
 
 .benefits__picture {
@@ -67,6 +71,7 @@
 
 .benefits__text--details {
   color: #333333;
+  width: 121px;
 }
 
 .benefits__text {
@@ -141,7 +146,6 @@
   margin-left: auto;
   margin-right: auto;
   width: 143px;
-  font-family: "Myriad Pro", "Arial", sans-serif;
   font-size: 18px;
   font-weight: 100;
   margin-top: 0;
@@ -164,7 +168,6 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-family: "Myriad Pro", "Arial", sans-serif;
   margin-bottom: 0;
 }
 
@@ -315,5 +318,10 @@
 
   .benefits__text {
     width: 171px;
+  }
+
+  .benefits__text--details {
+    color: #333333;
+    width: 158px;
   }
 }

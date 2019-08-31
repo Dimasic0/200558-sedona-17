@@ -1,0 +1,48 @@
+.advertising__wrapper {
+  width: 320px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding-top: 39px;
+  padding-bottom: 35px;
+}
+
+.advertising__headline {
+  font-size: 18px;
+  line-height: 12px;
+  height: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #000000;
+  text-align: center;
+}
+
+.advertising__text {
+  display: block;
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+  width: 237px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .advertising__wrapper {
+    width: 100%;
+    max-width: 1200px;
+  }
+
+  .advertising__headline {
+    font-size: 30px;
+    height: 22px;
+    line-height: 19px;
+  }
+
+  .advertising__text {
+    width: 413px;
+    height: 43px;
+  }
+}

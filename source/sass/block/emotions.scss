@@ -1,0 +1,89 @@
+.emotions__heading {
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 12px;
+  height: 14px;
+  margin: 0 auto;
+  margin-top: 24px;
+}
+
+.emotions {
+  width: 320px;
+  background-color: #ffffff;
+  padding-top: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  border-top: 1px solid #e5e5e5;
+}
+
+.emotions__wrapper {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.emotions__text-field {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  color: #000000;
+  display: block;
+  width: 87%;
+  height: 160px;
+  margin: 21px auto;
+  box-sizing: border-box;
+  padding-top: 16px;
+  padding-left: 20px;
+  background-color: #f2f2f2;
+}
+
+.emotions__button {
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-sizing: content-box;
+  line-height: 10px;
+  height: 15px;
+  color: #ffffff;
+  margin-top: 51px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #81b3d2;
+  padding: 21px 48px 21px 47px;
+  border: 0;
+}
+
+@media (min-width: 768px) {
+  .emotions__wrapper {
+    margin: 0;
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+  }
+
+  .emotions__heading {
+    margin-top: 0;
+  }
+
+  .emotions {
+    width: 100%;
+    max-width: 1200px;
+    border: 0;
+  }
+
+  .emotions__button {
+    box-sizing: border-box;
+    width: 42%;
+    height: 61px;
+    line-height: 16px;
+    text-align: center;
+    padding-top: 21px;
+    margin-left: 8%;
+  }
+
+  .emotions__text-field {
+    width: 84%;
+    margin-left: 8%;
+  }
+}
