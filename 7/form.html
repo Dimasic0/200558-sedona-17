@@ -32,6 +32,10 @@
           </li>
           <li class="main-nav__item main-nav__item--logo">
             <a href="index.html" class="main-nav__link main-nav__link--logo">
+              <picture>
+                <source media="(min-width:1200px)" srcset="img/logo-desktop.png">
+                <img src="/img/logo-mobile@1x.png" alt="" class="main-nav__picture">
+              </picture>
             </a>
             <button class="main-nav__button">
               <span class="visually-hidden">Меню</span>
@@ -57,15 +61,15 @@
             <legend class="initials__heading">представьтесь</legend>
             <div class="initials__block">
               <label for="name" class="initials__text initials__text--name">ИМЯ*:</label>
-              <input type="text" id="name" class="initials__water-field initials__water-field--name" name="name" value="Петр">
+              <input type="text" id="name" class="initials__water-field initials__water-field--name" name="name" placeholder="Петр">
             </div>
             <div class="initials__block initials__block--surname">
               <label for="surname" class="initials__text initials__text--surname">ФАМИЛИЯ*:</label>
-              <input type="text" id="surname" name="surname" class="initials__water-field initials__water-field--surname" value="Иванов">
+              <input type="text" id="surname" name="surname" class="initials__water-field initials__water-field--surname" placeholder="Иванов">
             </div>
             <div class="initials__block">
               <label for="patronymic" class="initials__text initials__text--patronymic">ОТЧЕСТВО:</label>
-              <input type="text" id="patronymic" name="patronymic" class="initials__water-field initials__water-field--patronymic" value="Александрович">
+              <input type="text" id="patronymic" name="patronymic" class="initials__water-field initials__water-field--patronymic" placeholder="Александрович">
             </div>
           </fieldset>
         </section>
@@ -74,11 +78,11 @@
             <legend class="contacts__heading">контактная информация:</legend>
             <div class="contacts__block">
               <label for="phone" class="contacts__text contacts__text--phone">Контактный телефон*:</label>
-              <input type="tel" id="phone" name="phone" class="contacts__water-field" value="Введите телефон">
+              <input type="tel" id="phone" name="phone" class="contacts__water-field" placeholder="Введите телефон">
             </div>
             <div class="contacts__block">
               <label for="mail" class="contacts__text contacts__text--mail">Электронная почта*:</label>
-              <input type="email" id="mail" name="mail" class="contacts__water-field" value="Введите e-mail">
+              <input type="email" id="mail" name="mail" class="contacts__water-field" placeholder="Введите e-mail">
             </div>
           </fieldset>
         </section>
@@ -143,8 +147,8 @@
         <section class="emotions">
           <fieldset class="emotions__wrapper">
             <legend class="emotions__heading">опишите свои эмоции:</legend>
-            <textarea class="emotions__text-field">Опишите подробно все свои восторги</textarea>
-            <input type="submit" class="emotions__button" placeholder="отправить отзыв">
+            <textarea class="emotions__text-field" placeholder="Опишите подробно все свои восторги" name="feeling"></textarea>
+            <input type="submit" class="emotions__button" value="отправить отзыв">
           </fieldset>
         </section>
       </form>
@@ -159,7 +163,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="15px">
                 <defs>
                   <filter id="twitter">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                    <feFlood flood-color="rgb(255, 255, 255)" class="page-footer__svg" flood-opacity="1" result="floodOut" />
                     <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
                     <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
                   </filter>
@@ -176,7 +180,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="19px">
                 <defs>
                   <filter id="facebook">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                    <feFlood flood-color="rgb(255, 255, 255)" class="page-footer__svg" flood-opacity="1" result="floodOut" />
                     <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
                     <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
                   </filter>

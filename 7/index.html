@@ -32,6 +32,10 @@
           </li>
           <li class="main-nav__item main-nav__item--logo">
             <a class="main-nav__link main-nav__link--logo">
+              <picture>
+                <source media="(min-width:1200px)" srcset="img/logo-desktop.png">
+                <img src="/img/logo-mobile@1x.png" alt="" class="main-nav__picture">
+              </picture>
             </a>
             <button class="main-nav__button">
               <span class="visually-hidden">Меню</span>
@@ -44,7 +48,10 @@
     <main>
       <section class="greeting">
         <div class="greeting__wrapper">
-          <img src="img/text.png" class="greeting__picture-text" alt="Седона">
+          <picture>
+            <source media="(min-width:768px)" srcset="img/text-tablet@1x.png">
+            <img src="img/text-mobile@1x.png" class="greeting__picture-text" alt="Седона">
+          </picture>
         </div>
       </section>
       <section class="information-city">
@@ -69,7 +76,10 @@
           <ul class="benefits__wrapper">
             <li class="benefits__reasons benefits__reasons--position">
               <div class="benefits__reasons-icon benefits__reasons-icon--specialty-housing">
-                <img src="img/icon-house.png" class="benefits__icon benefits__icon--proptions" alt="дом">
+                <picture>
+                  <source media="(min-width:768px)" srcset="img/house-tablet@1x.png">
+                  <img src="img/house-mobile@1x.png" class="benefits__icon benefits__icon--proptions" alt="дом">
+                </picture>
               </div>
               <div class="benefits__reasons-text">
                 <h2 class="benefits__heading">Жилье</h2>
@@ -78,7 +88,10 @@
             </li>
             <li class="benefits__reasons benefits__reasons--disposition">
               <div class="benefits__reasons-icon benefits__reasons-icon--specialty-souvenirs">
-                <img src="img/icon-gift.png" class="benefits__icon benefits__icon--proptions" alt="подарок">
+                <picture>
+                  <source media="(min-width:768px)" srcset="img/gift-tablet@1x.png">
+                  <img src="img/gift-mobile@1x.png" class="benefits__icon benefits__icon--proptions" alt="подарок">
+                </picture>
               </div>
               <div class="benefits__reasons-text benefits__reasons-text--souvenirs">
                 <h2 class="benefits__heading">Сувениры</h2>
@@ -87,7 +100,10 @@
             </li>
             <li class="benefits__reasons benefits__reasons--position">
               <div class="benefits__reasons-icon benefits__reasons-icon--specialty-food">
-                <img src="img/icon-burger_2.png" class="benefits__icon benefits__icon--proptions" alt="еда">
+                <picture>
+                  <source media="(min-width:768px)" srcset="img/burger-tablet@.png">
+                  <img src="img/burger-mobile@1x.png" class="benefits__icon benefits__icon--proptions" alt="еда">
+                </picture>
               </div>
               <div class="benefits__reasons-text">
                 <h2 class="benefits__heading">Еда</h2>
@@ -150,7 +166,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19px" height="15px">
                 <defs>
                   <filter id="twitter">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" class="page-footer__svg" />
                     <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
                     <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
                   </filter>
@@ -167,7 +183,7 @@
               <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="9px" height="19px">
                 <defs>
                   <filter id="facebook">
-                    <feFlood flood-color="rgb(255, 255, 255)" flood-opacity="1" result="floodOut" />
+                    <feFlood flood-color="rgb(255, 255, 255)" class="page-footer__svg" flood-opacity="1" result="floodOut" />
                     <feComposite operator="atop" in="floodOut" in2="SourceGraphic" result="compOut" />
                     <feBlend mode="normal" in="compOut" in2="SourceGraphic" />
                   </filter>
