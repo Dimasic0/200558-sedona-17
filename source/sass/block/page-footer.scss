@@ -70,17 +70,19 @@
 .page-footer__link--htmlacademy {
   width: 27px;
   height: 34px;
-  background: url("../img/logo-htmlacademy.svg");
+  background: url("../img/htmlacademy.png");
   background-color: white;
   margin-left: 11px;
   font-size: 0;
 }
 
-.page-footer__icon {
-  width: 27px;
-  height: 34px;
-  background: url("../../img/academy.svg") no-repeat 0 0;
-  background-size: 100% 100%;
+.page-footer__link--htmlacademy:hover {
+  background-image: url("../img/htmlacademy_hover.png");
+}
+
+.page-footer__link--htmlacademy:active {
+  background-image: url("../img/htmlacademy.png");
+  opacity: 0.3;
 }
 
 .page-footer__sentence {

@@ -19,39 +19,43 @@
   text-align: center;
 }
 
-.attractions__square {
-  display: inline-block;
-  width: 56px;
-  height: 56px;
-  border-radius: 10px;
-  background-color: #f2f2f2;
-}
-
-.attractions__checkbox:checked + .attractions__square::before {
-  content: "";
-  display: block;
-  width: 23px;
-  height: 14px;
-  border-left: 3px solid #231f20;
-  border-bottom: 3px solid #231f20;
-  transform: rotateZ(-50deg);
-  margin-left: 18px;
-  margin-top: 17px;
-}
-
 .attractions__checkbox {
   display: none;
 }
 
 .attractions__line {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 600;
-  line-height: 11px;
-  height: 15px;
-  position: relative;
-  top: -25px;
-  left: 19px;
+  font-size:18px;
+  font-weight:bold;
+  color:#000000;
+  line-height: 8px;
+  height: 11px;
+  margin-left: 25px;
+}
+
+.attractions__text::before {
+  display: block;
+  content: "";
+  width: 56px;
+  height: 56px;
+  background-color: #f2f2f2;
+}
+
+.attractions__checkbox:checked + .attractions__text::before {
+  display: block;
+  content: "";
+  background-image: url("../img/icon-tick.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.attractions__checkbox:checked + .attractions__text::before:active {
+  background-image: url("../img/tick_hover.png");
+}
+
+.attractions__text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .attractions__block {
@@ -84,14 +88,6 @@
 
   .attractions__wrapper {
     border-top: 1px solid #dbdbdb;
-  }
-
-  .attractions__square {
-    margin-left: 0;
-  }
-
-  .attractions__text {
-    left: 18px;
   }
 
   .attractions__block {
