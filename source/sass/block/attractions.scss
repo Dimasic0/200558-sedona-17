@@ -48,6 +48,12 @@
   background-position: center center;
 }
 
+.attractions__text::before:hover {
+  display: block;
+  content: "";
+  background-color: #e5e5e5;
+}
+
 .attractions__checkbox:checked + .attractions__text::before:active {
   background-image: url("../img/tick_hover.png");
 }

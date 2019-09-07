@@ -61,6 +61,14 @@
   background-color: #333333;
 }
 
+.impression__text::before:hover {
+  background-color: #e5e5e5;
+}
+
+.impression__text::before:active {
+  background-color: #d5d5d5;
+}
+
 .impression__block {
   width: 262px;
   height: 56px;
